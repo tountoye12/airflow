@@ -6353,3 +6353,10 @@ SyntaxError: invalid syntax
 [2024-06-04T15:44:01.779-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:44:01.778-0500] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-04T15:44:01.794-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:44:01.794-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
 [2024-06-04T15:44:01.823-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.473 seconds
+[2024-06-04T15:44:32.008-0500] {processor.py:161} INFO - Started process (PID=17317) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:44:32.012-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:44:32.015-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:44:32.014-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:44:32.394-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:44:32.413-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:44:32.413-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:44:32.430-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:44:32.430-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:44:32.454-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.462 seconds
