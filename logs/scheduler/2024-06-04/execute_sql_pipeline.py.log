@@ -2400,3 +2400,31 @@ NameError: name 'dis' is not defined
 [2024-06-04T15:44:43.768-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:44:43.768-0500] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-04T15:44:43.783-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:44:43.783-0500] {dag.py:3954} INFO - Setting next_dagrun for execute_sql_pipeline to None, run_after=None
 [2024-06-04T15:44:43.811-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_sql_pipeline.py took 0.523 seconds
+[2024-06-04T15:45:14.064-0500] {processor.py:161} INFO - Started process (PID=17575) to work on /home/diallo/airflow/dags/execute_sql_pipeline.py
+[2024-06-04T15:45:14.069-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_sql_pipeline.py for tasks to queue
+[2024-06-04T15:45:14.072-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:45:14.071-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_sql_pipeline.py
+[2024-06-04T15:45:14.484-0500] {processor.py:840} INFO - DAG(s) 'execute_sql_pipeline' retrieved from /home/diallo/airflow/dags/execute_sql_pipeline.py
+[2024-06-04T15:45:14.500-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:45:14.499-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:45:14.515-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:45:14.515-0500] {dag.py:3954} INFO - Setting next_dagrun for execute_sql_pipeline to None, run_after=None
+[2024-06-04T15:45:14.537-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_sql_pipeline.py took 0.491 seconds
+[2024-06-04T15:45:44.734-0500] {processor.py:161} INFO - Started process (PID=17760) to work on /home/diallo/airflow/dags/execute_sql_pipeline.py
+[2024-06-04T15:45:44.738-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_sql_pipeline.py for tasks to queue
+[2024-06-04T15:45:44.740-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:45:44.740-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_sql_pipeline.py
+[2024-06-04T15:45:45.069-0500] {processor.py:840} INFO - DAG(s) 'execute_sql_pipeline' retrieved from /home/diallo/airflow/dags/execute_sql_pipeline.py
+[2024-06-04T15:45:45.088-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:45:45.088-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:45:45.105-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:45:45.105-0500] {dag.py:3954} INFO - Setting next_dagrun for execute_sql_pipeline to None, run_after=None
+[2024-06-04T15:45:45.130-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_sql_pipeline.py took 0.410 seconds
+[2024-06-04T15:46:15.447-0500] {processor.py:161} INFO - Started process (PID=17886) to work on /home/diallo/airflow/dags/execute_sql_pipeline.py
+[2024-06-04T15:46:15.452-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_sql_pipeline.py for tasks to queue
+[2024-06-04T15:46:15.458-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:46:15.457-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_sql_pipeline.py
+[2024-06-04T15:46:15.792-0500] {processor.py:840} INFO - DAG(s) 'execute_sql_pipeline' retrieved from /home/diallo/airflow/dags/execute_sql_pipeline.py
+[2024-06-04T15:46:15.810-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:46:15.810-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:46:15.830-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:46:15.829-0500] {dag.py:3954} INFO - Setting next_dagrun for execute_sql_pipeline to None, run_after=None
+[2024-06-04T15:46:15.855-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_sql_pipeline.py took 0.426 seconds
+[2024-06-04T15:46:46.186-0500] {processor.py:161} INFO - Started process (PID=17940) to work on /home/diallo/airflow/dags/execute_sql_pipeline.py
+[2024-06-04T15:46:46.190-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_sql_pipeline.py for tasks to queue
+[2024-06-04T15:46:46.194-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:46:46.193-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_sql_pipeline.py
+[2024-06-04T15:46:46.521-0500] {processor.py:840} INFO - DAG(s) 'execute_sql_pipeline' retrieved from /home/diallo/airflow/dags/execute_sql_pipeline.py
+[2024-06-04T15:46:46.540-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:46:46.539-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:46:46.557-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:46:46.557-0500] {dag.py:3954} INFO - Setting next_dagrun for execute_sql_pipeline to None, run_after=None
+[2024-06-04T15:46:46.583-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_sql_pipeline.py took 0.416 seconds
