@@ -8847,3 +8847,480 @@ File Path                                          PID    Runtime      # DAGs   
 /home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.62s           2024-06-04T20:17:40
 /home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.61s           2024-06-04T20:18:09
 ================================================================================
+[2024-06-04T15:18:40.289-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.91s           2024-06-04T20:18:40
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.61s           2024-06-04T20:18:11
+================================================================================
+[2024-06-04T15:19:11.260-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.71s           2024-06-04T20:19:11
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.61s           2024-06-04T20:18:42
+================================================================================
+[2024-06-04T15:19:42.107-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.61s           2024-06-04T20:19:42
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.61s           2024-06-04T20:19:13
+================================================================================
+[2024-06-04T15:20:12.822-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:20:12
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.50s           2024-06-04T20:19:43
+================================================================================
+[2024-06-04T15:20:43.782-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.61s           2024-06-04T20:20:43
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.61s           2024-06-04T20:20:14
+================================================================================
+[2024-06-04T15:21:14.036-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.61s           2024-06-04T20:20:45
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           0           1  0.61s           2024-06-04T20:21:14
+================================================================================
+[2024-06-04T15:21:24.098-0500] {manager.py:737} INFO - Searching for files in /home/diallo/airflow/dags
+[2024-06-04T15:21:24.105-0500] {manager.py:740} INFO - There are 2 files in /home/diallo/airflow/dags
+[2024-06-04T15:21:44.255-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.72s           2024-06-04T20:21:15
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           0           1  0.71s           2024-06-04T20:21:43
+================================================================================
+[2024-06-04T15:22:14.419-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.71s           2024-06-04T20:22:12
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.61s           2024-06-04T20:21:47
+================================================================================
+[2024-06-04T15:22:44.514-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:22:18
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           0           1  0.11s           2024-06-04T20:22:42
+================================================================================
+[2024-06-04T15:23:14.643-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.71s           2024-06-04T20:22:48
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:22:50
+================================================================================
+[2024-06-04T15:23:44.826-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.91s           2024-06-04T20:23:20
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.71s           2024-06-04T20:23:21
+================================================================================
+[2024-06-04T15:24:15.022-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.71s           2024-06-04T20:23:51
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:23:52
+================================================================================
+[2024-06-04T15:24:45.173-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.62s           2024-06-04T20:24:22
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:24:23
+================================================================================
+[2024-06-04T15:25:15.186-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           0           1  0.61s           2024-06-04T20:25:14
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:24:54
+================================================================================
+[2024-06-04T15:25:45.435-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.71s           2024-06-04T20:25:43
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.61s           2024-06-04T20:25:24
+================================================================================
+[2024-06-04T15:26:15.452-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.61s           2024-06-04T20:25:56
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:26:03
+================================================================================
+[2024-06-04T15:26:24.192-0500] {manager.py:737} INFO - Searching for files in /home/diallo/airflow/dags
+[2024-06-04T15:26:24.198-0500] {manager.py:740} INFO - There are 2 files in /home/diallo/airflow/dags
+[2024-06-04T15:26:45.972-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.81s           2024-06-04T20:26:34
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.62s           2024-06-04T20:26:26
+================================================================================
+[2024-06-04T15:27:16.174-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.52s           2024-06-04T20:27:15
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:26:57
+================================================================================
+[2024-06-04T15:27:46.931-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.62s           2024-06-04T20:27:28
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           0           1  0.11s           2024-06-04T20:27:41
+================================================================================
+[2024-06-04T15:28:17.444-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.61s           2024-06-04T20:28:11
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:27:58
+================================================================================
+[2024-06-04T15:28:48.047-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.61s           2024-06-04T20:28:43
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:28:29
+================================================================================
+[2024-06-04T15:29:18.498-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.41s           2024-06-04T20:29:14
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.40s           2024-06-04T20:29:00
+================================================================================
+[2024-06-04T15:29:48.898-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:29:45
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.41s           2024-06-04T20:29:30
+================================================================================
+[2024-06-04T15:30:19.826-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:30:01
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:30:17
+================================================================================
+[2024-06-04T15:30:26.187-0500] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-06-04T15:30:31.050-0500] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-06-04T15:30:31.051-0500] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-06-04T15:30:31.051-0500] {manager.py:472} INFO - Checking for new files in /home/diallo/airflow/dags every 300 seconds
+[2024-06-04T15:30:31.052-0500] {manager.py:737} INFO - Searching for files in /home/diallo/airflow/dags
+[2024-06-04T15:30:31.054-0500] {manager.py:740} INFO - There are 2 files in /home/diallo/airflow/dags
+[2024-06-04T15:30:31.621-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:30:31
+/home/diallo/airflow/dags/data_cleaning.py                                  0           0
+================================================================================
+[2024-06-04T15:31:02.949-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.52s           2024-06-04T20:31:02
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.50s           2024-06-04T20:30:33
+================================================================================
+[2024-06-04T15:31:33.925-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.61s           2024-06-04T20:31:31
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.61s           2024-06-04T20:31:04
+================================================================================
+[2024-06-04T15:32:04.005-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.50s           2024-06-04T20:31:47
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.50s           2024-06-04T20:31:37
+================================================================================
+[2024-06-04T15:32:34.990-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.61s           2024-06-04T20:32:26
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.61s           2024-06-04T20:32:08
+================================================================================
+[2024-06-04T15:33:05.942-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:32:39
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           0           1  0.12s           2024-06-04T20:33:02
+================================================================================
+[2024-06-04T15:33:36.487-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.71s           2024-06-04T20:33:10
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:33:26
+================================================================================
+[2024-06-04T15:33:59.370-0500] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-06-04T15:34:10.650-0500] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-06-04T15:34:10.650-0500] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-06-04T15:34:10.650-0500] {manager.py:472} INFO - Checking for new files in /home/diallo/airflow/dags every 300 seconds
+[2024-06-04T15:34:10.651-0500] {manager.py:737} INFO - Searching for files in /home/diallo/airflow/dags
+[2024-06-04T15:34:10.653-0500] {manager.py:740} INFO - There are 2 files in /home/diallo/airflow/dags
+[2024-06-04T15:34:11.216-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.50s           2024-06-04T20:34:11
+/home/diallo/airflow/dags/data_cleaning.py                                  0           0
+================================================================================
+[2024-06-04T15:34:42.479-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.61s           2024-06-04T20:34:12
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:34:42
+================================================================================
+[2024-06-04T15:35:13.897-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:35:13
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.50s           2024-06-04T20:34:44
+================================================================================
+[2024-06-04T15:35:45.369-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.50s           2024-06-04T20:35:15
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.50s           2024-06-04T20:35:45
+================================================================================
+[2024-06-04T15:36:16.993-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.61s           2024-06-04T20:36:16
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.50s           2024-06-04T20:35:46
+================================================================================
+[2024-06-04T15:36:47.625-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.72s           2024-06-04T20:36:18
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.52s           2024-06-04T20:36:21
+================================================================================
+[2024-06-04T15:37:18.539-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.71s           2024-06-04T20:37:01
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:36:48
+================================================================================
+[2024-06-04T15:37:49.437-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.52s           2024-06-04T20:37:32
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.50s           2024-06-04T20:37:19
+================================================================================
+[2024-06-04T15:38:20.410-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.52s           2024-06-04T20:37:50
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:38:03
+================================================================================
+[2024-06-04T15:38:51.296-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.50s           2024-06-04T20:38:21
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.50s           2024-06-04T20:38:33
+================================================================================
+[2024-06-04T15:39:10.663-0500] {manager.py:737} INFO - Searching for files in /home/diallo/airflow/dags
+[2024-06-04T15:39:10.668-0500] {manager.py:740} INFO - There are 2 files in /home/diallo/airflow/dags
+[2024-06-04T15:39:22.149-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:38:52
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:39:04
+================================================================================
+[2024-06-04T15:39:55.270-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.71s           2024-06-04T20:39:55
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.61s           2024-06-04T20:39:35
+================================================================================
+[2024-06-04T15:40:26.070-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:40:26
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.50s           2024-06-04T20:40:05
+================================================================================
+[2024-06-04T15:40:57.496-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:40:57
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.50s           2024-06-04T20:40:37
+================================================================================
+[2024-06-04T15:41:28.865-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:41:08
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.50s           2024-06-04T20:41:28
+================================================================================
+[2024-06-04T15:41:59.478-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:41:39
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:41:59
+================================================================================
+[2024-06-04T15:42:30.071-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.61s           2024-06-04T20:42:10
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:42:30
+================================================================================
+[2024-06-04T15:43:00.668-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:42:40
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.50s           2024-06-04T20:43:00
+================================================================================
+[2024-06-04T15:43:31.248-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:43:31
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:43:11
+================================================================================
+[2024-06-04T15:44:01.852-0500] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/diallo/airflow/dags/execute_sql_pipeline.py                           1           0  0.51s           2024-06-04T20:43:42
+/home/diallo/airflow/dags/data_cleaning.py                                  1           0  0.51s           2024-06-04T20:44:01
+================================================================================

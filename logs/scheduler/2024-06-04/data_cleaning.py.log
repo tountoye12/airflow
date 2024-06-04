@@ -5996,3 +5996,360 @@ SyntaxError: invalid syntax
 [2024-06-04T15:17:40.898-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:17:40.897-0500] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-04T15:17:40.916-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:17:40.915-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
 [2024-06-04T15:17:40.952-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.568 seconds
+[2024-06-04T15:18:11.162-0500] {processor.py:161} INFO - Started process (PID=14761) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:18:11.164-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:18:11.169-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:18:11.168-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:18:11.620-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:18:11.636-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:18:11.636-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:18:11.652-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:18:11.652-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:18:11.703-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.559 seconds
+[2024-06-04T15:18:41.851-0500] {processor.py:161} INFO - Started process (PID=14953) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:18:41.876-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:18:41.878-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:18:41.878-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:18:42.300-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:18:42.316-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:18:42.315-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:18:42.333-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:18:42.332-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:18:42.357-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.512 seconds
+[2024-06-04T15:19:12.586-0500] {processor.py:161} INFO - Started process (PID=15141) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:19:12.588-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:19:12.591-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:19:12.590-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:19:12.980-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:19:12.996-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:19:12.995-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:19:13.012-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:19:13.012-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:19:13.115-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.546 seconds
+[2024-06-04T15:19:43.232-0500] {processor.py:161} INFO - Started process (PID=15171) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:19:43.246-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:19:43.248-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:19:43.248-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:19:43.634-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:19:43.649-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:19:43.648-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:19:43.665-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:19:43.664-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:19:43.689-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.464 seconds
+[2024-06-04T15:20:13.855-0500] {processor.py:161} INFO - Started process (PID=15199) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:20:13.857-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:20:13.860-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:20:13.859-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:20:14.244-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:20:14.260-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:20:14.260-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:20:14.275-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:20:14.275-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:20:14.339-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.502 seconds
+[2024-06-04T15:20:44.593-0500] {processor.py:161} INFO - Started process (PID=15229) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:20:44.636-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:20:44.640-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:20:44.639-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:20:45.037-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:20:45.052-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:20:45.052-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:20:45.067-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:20:45.067-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:20:45.094-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.516 seconds
+[2024-06-04T15:21:15.328-0500] {processor.py:161} INFO - Started process (PID=15299) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:21:15.331-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:21:15.335-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:21:15.334-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:21:15.810-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:21:15.831-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:21:15.831-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:21:15.853-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:21:15.852-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:21:15.935-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.626 seconds
+[2024-06-04T15:21:47.248-0500] {processor.py:161} INFO - Started process (PID=15379) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:21:47.309-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:21:47.314-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:21:47.313-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:21:47.759-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:21:47.776-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:21:47.775-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:21:47.797-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:21:47.797-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:21:47.831-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.590 seconds
+[2024-06-04T15:22:17.991-0500] {processor.py:161} INFO - Started process (PID=15483) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:22:17.992-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:22:17.994-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:22:17.993-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:22:18.348-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:22:18.369-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:22:18.368-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:22:18.389-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:22:18.388-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:22:18.465-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.481 seconds
+[2024-06-04T15:22:49.707-0500] {processor.py:161} INFO - Started process (PID=15555) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:22:49.732-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:22:49.736-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:22:49.735-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:22:50.091-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:22:50.113-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:22:50.113-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:22:50.133-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:22:50.133-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:22:50.162-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.466 seconds
+[2024-06-04T15:23:20.903-0500] {processor.py:161} INFO - Started process (PID=15959) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:23:20.905-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:23:20.909-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:23:20.908-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:23:21.390-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:23:21.423-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:23:21.423-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:23:21.450-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:23:21.450-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:23:21.539-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.657 seconds
+[2024-06-04T15:23:51.640-0500] {processor.py:161} INFO - Started process (PID=15981) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:23:51.643-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:23:51.646-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:23:51.645-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:23:51.993-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:23:52.011-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:23:52.011-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:23:52.027-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:23:52.027-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:23:52.064-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.439 seconds
+[2024-06-04T15:24:22.656-0500] {processor.py:161} INFO - Started process (PID=15991) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:24:22.708-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:24:22.713-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:24:22.712-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:24:23.055-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:24:23.073-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:24:23.072-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:24:23.089-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:24:23.089-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:24:23.117-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.474 seconds
+[2024-06-04T15:24:53.703-0500] {processor.py:161} INFO - Started process (PID=16012) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:24:53.706-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:24:53.711-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:24:53.709-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:24:54.029-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:24:54.050-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:24:54.050-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:24:54.076-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:24:54.076-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:24:54.112-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.419 seconds
+[2024-06-04T15:25:24.385-0500] {processor.py:161} INFO - Started process (PID=16073) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:25:24.389-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:25:24.391-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:25:24.390-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:25:24.798-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:25:24.816-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:25:24.816-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:25:24.835-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:25:24.834-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:25:24.905-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.530 seconds
+[2024-06-04T15:25:55.509-0500] {processor.py:161} INFO - Started process (PID=16145) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:25:55.510-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:25:55.512-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:25:55.512-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:25:55.950-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:25:55.968-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:25:55.967-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:25:55.985-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:25:55.985-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:25:56.047-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.545 seconds
+[2024-06-04T15:26:26.275-0500] {processor.py:161} INFO - Started process (PID=16186) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:26:26.321-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:26:26.323-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:26:26.322-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:26:26.707-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:26:26.727-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:26:26.726-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:26:26.743-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:26:26.743-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:26:26.849-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.584 seconds
+[2024-06-04T15:26:57.054-0500] {processor.py:161} INFO - Started process (PID=16212) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:26:57.060-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:26:57.061-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:26:57.061-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:26:57.408-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:26:57.429-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:26:57.428-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:26:57.450-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:26:57.450-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:26:57.483-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.441 seconds
+[2024-06-04T15:27:27.725-0500] {processor.py:161} INFO - Started process (PID=16282) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:27:27.742-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:27:27.745-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:27:27.744-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:27:28.191-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:27:28.211-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:27:28.211-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:27:28.228-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:27:28.228-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:27:28.255-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.558 seconds
+[2024-06-04T15:27:58.474-0500] {processor.py:161} INFO - Started process (PID=16342) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:27:58.475-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:27:58.478-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:27:58.477-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:27:58.804-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:27:58.824-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:27:58.823-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:27:58.842-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:27:58.842-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:27:58.924-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.464 seconds
+[2024-06-04T15:28:29.136-0500] {processor.py:161} INFO - Started process (PID=16389) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:28:29.143-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:28:29.147-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:28:29.146-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:28:29.455-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:28:29.473-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:28:29.472-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:28:29.489-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:28:29.489-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:28:29.587-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.461 seconds
+[2024-06-04T15:28:59.759-0500] {processor.py:161} INFO - Started process (PID=16398) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:28:59.759-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:28:59.761-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:28:59.761-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:29:00.068-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:29:00.086-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:29:00.086-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:29:00.106-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:29:00.106-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:29:00.137-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.385 seconds
+[2024-06-04T15:29:30.317-0500] {processor.py:161} INFO - Started process (PID=16408) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:29:30.319-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:29:30.321-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:29:30.321-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:29:30.637-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:29:30.655-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:29:30.655-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:29:30.673-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:29:30.673-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:29:30.701-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.394 seconds
+[2024-06-04T15:30:00.922-0500] {processor.py:161} INFO - Started process (PID=16423) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:30:00.923-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:30:00.926-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:30:00.925-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:30:01.258-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:30:01.278-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:30:01.278-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:30:01.295-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:30:01.295-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:30:01.317-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.413 seconds
+[2024-06-04T15:30:32.701-0500] {processor.py:161} INFO - Started process (PID=16477) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:30:32.704-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:30:32.705-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:30:32.705-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:30:33.095-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:30:33.112-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:30:33.112-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:30:33.128-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:30:33.128-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:30:33.151-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.456 seconds
+[2024-06-04T15:31:04.021-0500] {processor.py:161} INFO - Started process (PID=16515) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:31:04.023-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:31:04.025-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:31:04.024-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:31:04.459-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:31:04.478-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:31:04.477-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:31:04.500-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:31:04.499-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:31:04.523-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.511 seconds
+[2024-06-04T15:31:36.639-0500] {processor.py:161} INFO - Started process (PID=16557) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:31:36.642-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:31:36.644-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:31:36.644-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:31:37.038-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:31:37.053-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:31:37.053-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:31:37.069-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:31:37.069-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:31:37.092-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.459 seconds
+[2024-06-04T15:32:08.018-0500] {processor.py:161} INFO - Started process (PID=16594) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:32:08.019-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:32:08.022-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:32:08.022-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:32:08.460-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:32:08.479-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:32:08.479-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:32:08.505-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:32:08.505-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:32:08.540-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.530 seconds
+[2024-06-04T15:32:39.036-0500] {processor.py:161} INFO - Started process (PID=16652) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:32:39.040-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:32:39.043-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:32:39.042-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:32:39.429-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:32:39.444-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:32:39.444-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:32:39.464-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:32:39.464-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:32:39.490-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.475 seconds
+[2024-06-04T15:33:09.987-0500] {processor.py:161} INFO - Started process (PID=16715) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:33:09.989-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:33:09.992-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:33:09.991-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:33:10.483-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:33:10.507-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:33:10.506-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:33:10.537-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:33:10.536-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:33:10.571-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.597 seconds
+[2024-06-04T15:33:40.736-0500] {processor.py:161} INFO - Started process (PID=16768) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:33:40.738-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:33:40.740-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:33:40.740-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:33:41.128-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:33:41.143-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:33:41.143-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:33:41.159-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:33:41.159-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:33:41.182-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.465 seconds
+[2024-06-04T15:34:12.320-0500] {processor.py:161} INFO - Started process (PID=16794) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:34:12.325-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:34:12.329-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:34:12.328-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:34:12.744-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:34:12.759-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:34:12.759-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:34:12.776-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:34:12.776-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:34:12.800-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.496 seconds
+[2024-06-04T15:34:43.527-0500] {processor.py:161} INFO - Started process (PID=16810) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:34:43.531-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:34:43.532-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:34:43.532-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:34:43.917-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:34:43.932-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:34:43.932-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:34:43.948-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:34:43.948-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:34:43.974-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.452 seconds
+[2024-06-04T15:35:14.946-0500] {processor.py:161} INFO - Started process (PID=16821) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:35:14.947-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:35:14.948-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:35:14.948-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:35:15.330-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:35:15.345-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:35:15.344-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:35:15.360-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:35:15.360-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:35:15.384-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.444 seconds
+[2024-06-04T15:35:46.420-0500] {processor.py:161} INFO - Started process (PID=16853) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:35:46.423-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:35:46.425-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:35:46.424-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:35:46.810-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:35:46.826-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:35:46.825-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:35:46.841-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:35:46.840-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:35:46.863-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.449 seconds
+[2024-06-04T15:36:17.345-0500] {processor.py:161} INFO - Started process (PID=16875) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:36:17.347-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:36:17.349-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:36:17.349-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:36:17.905-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:36:17.932-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:36:17.932-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:36:17.958-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:36:17.958-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:36:17.991-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.662 seconds
+[2024-06-04T15:36:48.510-0500] {processor.py:161} INFO - Started process (PID=16915) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:36:48.514-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:36:48.516-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:36:48.516-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:36:48.902-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:36:48.917-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:36:48.916-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:36:48.931-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:36:48.931-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:36:48.965-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.471 seconds
+[2024-06-04T15:37:19.399-0500] {processor.py:161} INFO - Started process (PID=16955) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:37:19.399-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:37:19.401-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:37:19.401-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:37:19.781-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:37:19.796-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:37:19.796-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:37:19.811-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:37:19.811-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:37:19.835-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.441 seconds
+[2024-06-04T15:37:50.374-0500] {processor.py:161} INFO - Started process (PID=16969) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:37:50.380-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:37:50.383-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:37:50.383-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:37:50.782-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:37:50.797-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:37:50.797-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:37:50.814-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:37:50.813-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:37:50.847-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.490 seconds
+[2024-06-04T15:38:21.284-0500] {processor.py:161} INFO - Started process (PID=16983) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:38:21.284-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:38:21.286-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:38:21.286-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:38:21.667-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:38:21.682-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:38:21.682-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:38:21.698-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:38:21.698-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:38:21.720-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.442 seconds
+[2024-06-04T15:38:52.215-0500] {processor.py:161} INFO - Started process (PID=17003) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:38:52.220-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:38:52.224-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:38:52.223-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:38:52.606-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:38:52.621-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:38:52.621-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:38:52.637-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:38:52.636-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:38:52.661-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.461 seconds
+[2024-06-04T15:39:23.087-0500] {processor.py:161} INFO - Started process (PID=17013) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:39:23.089-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:39:23.093-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:39:23.092-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:39:23.492-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:39:23.508-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:39:23.507-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:39:23.522-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:39:23.522-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:39:23.550-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.479 seconds
+[2024-06-04T15:39:54.570-0500] {processor.py:161} INFO - Started process (PID=17065) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:39:54.573-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:39:54.574-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:39:54.574-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:39:55.118-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:39:55.139-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:39:55.139-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:39:55.164-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:39:55.164-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:39:55.190-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.627 seconds
+[2024-06-04T15:40:25.577-0500] {processor.py:161} INFO - Started process (PID=17086) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:40:25.580-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:40:25.581-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:40:25.581-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:40:25.968-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:40:25.983-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:40:25.983-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:40:25.998-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:40:25.997-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:40:26.020-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.449 seconds
+[2024-06-04T15:40:57.015-0500] {processor.py:161} INFO - Started process (PID=17106) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:40:57.020-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:40:57.023-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:40:57.023-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:40:57.409-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:40:57.424-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:40:57.424-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:40:57.439-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:40:57.439-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:40:57.463-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.462 seconds
+[2024-06-04T15:41:28.370-0500] {processor.py:161} INFO - Started process (PID=17116) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:41:28.371-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:41:28.372-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:41:28.372-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:41:28.749-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:41:28.765-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:41:28.764-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:41:28.780-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:41:28.780-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:41:28.808-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.443 seconds
+[2024-06-04T15:41:58.997-0500] {processor.py:161} INFO - Started process (PID=17135) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:41:59.002-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:41:59.005-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:41:59.005-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:41:59.390-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:41:59.406-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:41:59.405-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:41:59.422-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:41:59.421-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:41:59.444-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.461 seconds
+[2024-06-04T15:42:29.591-0500] {processor.py:161} INFO - Started process (PID=17157) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:42:29.596-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:42:29.599-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:42:29.599-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:42:29.991-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:42:30.006-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:42:30.006-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:42:30.022-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:42:30.022-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:42:30.045-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.469 seconds
+[2024-06-04T15:43:00.174-0500] {processor.py:161} INFO - Started process (PID=17170) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:43:00.175-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:43:00.177-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:43:00.176-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:43:00.575-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:43:00.592-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:43:00.591-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:43:00.606-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:43:00.606-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:43:00.631-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.463 seconds
+[2024-06-04T15:43:30.772-0500] {processor.py:161} INFO - Started process (PID=17245) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:43:30.777-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:43:30.781-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:43:30.780-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:43:31.167-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:43:31.184-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:43:31.183-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:43:31.198-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:43:31.198-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:43:31.222-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.467 seconds
+[2024-06-04T15:44:01.355-0500] {processor.py:161} INFO - Started process (PID=17271) to work on /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:44:01.358-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/data_cleaning.py for tasks to queue
+[2024-06-04T15:44:01.359-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:44:01.359-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:44:01.763-0500] {processor.py:840} INFO - DAG(s) 'python_pipeline' retrieved from /home/diallo/airflow/dags/data_cleaning.py
+[2024-06-04T15:44:01.779-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:44:01.778-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-04T15:44:01.794-0500] {logging_mixin.py:188} INFO - [2024-06-04T15:44:01.794-0500] {dag.py:3954} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2024-06-04T15:44:01.823-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/data_cleaning.py took 0.473 seconds
