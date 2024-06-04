@@ -46,11 +46,13 @@ def group_by_smoker(ti):
 
     df = pd.read_json(json_data)
 
-    smoker_df = df.groupby('smoker').agg({
-        'age': 'mean',
-        'bmi': 'mean',
-        'charges': 'mean'
-    }).reset_index()
+    smoker_df = df.groupby('smoker').agg(
+        {
+            'age': 'mean',
+            'bmi': 'mean',
+            'charges': 'mean'
+        }
+    ).reset_index()
 
 
     print(smoker_df)
@@ -62,6 +64,19 @@ def group_by_region(ti):
     json_data = ti.xcom_pull(task_ids='clean_data')
 
     print(json_data)
+
+    df = pd.read_json(json_data)
+
+    region_df = df.groupby('region').agg(
+        {
+            'age': 'mean',
+            'bmi': 'mean',
+            'charges': 'mean'
+        }
+    ).reset_index()
+
+    region_df.to_csv('./output/group_by_region.csv', index=False)
+
 
 
 with DAG(
