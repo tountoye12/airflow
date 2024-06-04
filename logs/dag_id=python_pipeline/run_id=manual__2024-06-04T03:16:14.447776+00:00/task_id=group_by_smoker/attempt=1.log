@@ -1,0 +1,45 @@
+[2024-06-03T22:16:22.870-0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-03T22:16:22.952-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: python_pipeline.group_by_smoker manual__2024-06-04T03:16:14.447776+00:00 [queued]>
+[2024-06-03T22:16:22.958-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: python_pipeline.group_by_smoker manual__2024-06-04T03:16:14.447776+00:00 [queued]>
+[2024-06-03T22:16:22.958-0500] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-03T22:16:22.981-0500] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): group_by_smoker> on 2024-06-04 03:16:14.447776+00:00
+[2024-06-03T22:16:22.985-0500] {standard_task_runner.py:63} INFO - Started process 44822 to run task
+[2024-06-03T22:16:22.989-0500] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'python_pipeline', 'group_by_smoker', 'manual__2024-06-04T03:16:14.447776+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/data_cleaning.py', '--cfg-path', '/tmp/tmp982ydix5']
+[2024-06-03T22:16:22.990-0500] {standard_task_runner.py:91} INFO - Job 67: Subtask group_by_smoker
+[2024-06-03T22:16:23.025-0500] {task_command.py:426} INFO - Running <TaskInstance: python_pipeline.group_by_smoker manual__2024-06-04T03:16:14.447776+00:00 [running]> on host diallo
+[2024-06-03T22:16:23.103-0500] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Diallo' AIRFLOW_CTX_DAG_ID='python_pipeline' AIRFLOW_CTX_TASK_ID='group_by_smoker' AIRFLOW_CTX_EXECUTION_DATE='2024-06-04T03:16:14.447776+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-04T03:16:14.447776+00:00'
+[2024-06-03T22:16:23.104-0500] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-03T22:16:23.128-0500] {logging_mixin.py:188} WARNING - /home/diallo/airflow/dags/data_cleaning.py:47 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-06-03T22:16:23.155-0500] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-03T22:16:23.156-0500] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/diallo/airflow/dags/data_cleaning.py", line 55, in group_by_smoker
+    df.to_csv('/output/group_by_smoke.csv', index=False)
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '/output'
+[2024-06-03T22:16:23.171-0500] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=python_pipeline, task_id=group_by_smoker, run_id=manual__2024-06-04T03:16:14.447776+00:00, execution_date=20240604T031614, start_date=20240604T031622, end_date=20240604T031623
+[2024-06-03T22:16:23.187-0500] {standard_task_runner.py:110} ERROR - Failed to execute job 67 for task group_by_smoker (Cannot save file into a non-existent directory: '/output'; 44822)
+[2024-06-03T22:16:23.200-0500] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-03T22:16:23.213-0500] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-03T22:16:23.213-0500] {local_task_job_runner.py:222} INFO - ::endgroup::

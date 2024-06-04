@@ -1,0 +1,1423 @@
+[2024-05-30T16:13:22.017-0500] {processor.py:161} INFO - Started process (PID=38986) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:22.018-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:13:22.021-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:22.020-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:22.025-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:22.037-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.033 seconds
+[2024-05-30T16:13:23.573-0500] {processor.py:161} INFO - Started process (PID=39002) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:23.574-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:13:23.576-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:23.576-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:23.579-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:23.590-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.031 seconds
+[2024-05-30T16:13:26.796-0500] {processor.py:161} INFO - Started process (PID=39019) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:26.799-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:13:26.803-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:26.802-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:26.812-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:26.810-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 14, in <module>
+    dag
+NameError: name 'dag' is not defined
+[2024-05-30T16:13:26.813-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:26.888-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.109 seconds
+[2024-05-30T16:13:28.176-0500] {processor.py:161} INFO - Started process (PID=39036) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:28.178-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:13:28.180-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:28.180-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:28.184-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:28.183-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 14
+    dag = 
+          ^
+SyntaxError: invalid syntax
+[2024-05-30T16:13:28.185-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:28.262-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.096 seconds
+[2024-05-30T16:13:32.173-0500] {processor.py:161} INFO - Started process (PID=39067) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:32.174-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:13:32.177-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:32.176-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:32.183-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:32.181-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 14, in <module>
+    dag = DAG ()
+TypeError: DAG.__init__() missing 1 required positional argument: 'dag_id'
+[2024-05-30T16:13:32.183-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:32.244-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.082 seconds
+[2024-05-30T16:13:33.503-0500] {processor.py:161} INFO - Started process (PID=39069) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:33.505-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:13:33.507-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:33.507-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:33.513-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:33.512-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 14, in <module>
+    dag = DAG (
+TypeError: DAG.__init__() missing 1 required positional argument: 'dag_id'
+[2024-05-30T16:13:33.513-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:33.660-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.171 seconds
+[2024-05-30T16:13:37.310-0500] {processor.py:161} INFO - Started process (PID=39101) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:37.312-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:13:37.316-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:37.315-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:37.320-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:37.319-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 15, in <module>
+    da
+NameError: name 'da' is not defined
+[2024-05-30T16:13:37.321-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:37.477-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.187 seconds
+[2024-05-30T16:13:41.858-0500] {processor.py:161} INFO - Started process (PID=39135) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:41.861-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:13:41.867-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:41.865-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:41.878-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:41.876-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 15, in <module>
+    dag_id
+NameError: name 'dag_id' is not defined
+[2024-05-30T16:13:41.878-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:42.050-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.216 seconds
+[2024-05-30T16:13:43.148-0500] {processor.py:161} INFO - Started process (PID=39149) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:43.151-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:13:43.156-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:43.155-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:43.162-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:43.161-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 16
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-05-30T16:13:43.163-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:43.334-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.207 seconds
+[2024-05-30T16:13:49.978-0500] {processor.py:161} INFO - Started process (PID=39196) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:49.979-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:13:49.981-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:49.981-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:50.100-0500] {processor.py:840} INFO - DAG(s) 'hello_' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:50.280-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:50.279-0500] {override.py:1829} INFO - Created Permission View: can delete on DAG:hello_
+[2024-05-30T16:13:50.338-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:50.336-0500] {override.py:1829} INFO - Created Permission View: can edit on DAG:hello_
+[2024-05-30T16:13:50.394-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:50.392-0500] {override.py:1829} INFO - Created Permission View: can read on DAG:hello_
+[2024-05-30T16:13:50.395-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:50.394-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:13:50.425-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:50.424-0500] {dag.py:3118} INFO - Creating ORM DAG for hello_
+[2024-05-30T16:13:50.434-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:50.434-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_ to None, run_after=None
+[2024-05-30T16:13:50.564-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.597 seconds
+[2024-05-30T16:13:54.109-0500] {processor.py:161} INFO - Started process (PID=39228) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:54.112-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:13:54.116-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:54.115-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:54.225-0500] {processor.py:840} INFO - DAG(s) 'hello_wo' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:54.562-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:54.560-0500] {override.py:1829} INFO - Created Permission View: can delete on DAG:hello_wo
+[2024-05-30T16:13:54.628-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:54.627-0500] {override.py:1829} INFO - Created Permission View: can edit on DAG:hello_wo
+[2024-05-30T16:13:54.688-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:54.687-0500] {override.py:1829} INFO - Created Permission View: can read on DAG:hello_wo
+[2024-05-30T16:13:54.692-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:54.691-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:13:54.722-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:54.721-0500] {dag.py:3118} INFO - Creating ORM DAG for hello_wo
+[2024-05-30T16:13:54.732-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:54.732-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_wo to None, run_after=None
+[2024-05-30T16:13:54.801-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.722 seconds
+[2024-05-30T16:13:55.972-0500] {processor.py:161} INFO - Started process (PID=39245) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:55.974-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:13:55.976-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:55.975-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:56.083-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:56.281-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:56.280-0500] {override.py:1829} INFO - Created Permission View: can delete on DAG:hello_world
+[2024-05-30T16:13:56.339-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:56.337-0500] {override.py:1829} INFO - Created Permission View: can edit on DAG:hello_world
+[2024-05-30T16:13:56.439-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:56.439-0500] {override.py:1829} INFO - Created Permission View: can read on DAG:hello_world
+[2024-05-30T16:13:56.440-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:56.440-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:13:56.457-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:56.456-0500] {dag.py:3118} INFO - Creating ORM DAG for hello_world
+[2024-05-30T16:13:56.469-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:56.468-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:13:56.545-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.583 seconds
+[2024-05-30T16:13:57.659-0500] {processor.py:161} INFO - Started process (PID=39261) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:57.663-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:13:57.671-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:57.669-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:57.805-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:13:57.811-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:57.810-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:13:57.827-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:13:57.827-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:13:57.882-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.248 seconds
+[2024-05-30T16:14:00.194-0500] {processor.py:161} INFO - Started process (PID=39280) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:00.197-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:00.326-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:00.326-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:00.328-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:00.328-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 17
+    )
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-05-30T16:14:00.329-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:00.406-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.235 seconds
+[2024-05-30T16:14:02.826-0500] {processor.py:161} INFO - Started process (PID=39296) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:02.827-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:02.828-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:02.828-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:02.830-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:02.829-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 17
+    )
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-05-30T16:14:02.830-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:02.887-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.189 seconds
+[2024-05-30T16:14:04.318-0500] {processor.py:161} INFO - Started process (PID=39312) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:04.320-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:04.322-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:04.321-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:04.325-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:04.324-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 17
+    )
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-05-30T16:14:04.325-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:04.426-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.267 seconds
+[2024-05-30T16:14:06.371-0500] {processor.py:161} INFO - Started process (PID=39329) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:06.373-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:06.376-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:06.375-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:06.381-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:06.380-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 17
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-05-30T16:14:06.381-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:06.445-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.086 seconds
+[2024-05-30T16:14:11.594-0500] {processor.py:161} INFO - Started process (PID=39362) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:11.596-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:11.602-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:11.601-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:11.617-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:11.627-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:11.627-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:14:11.646-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:11.646-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:14:11.775-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.207 seconds
+[2024-05-30T16:14:17.752-0500] {processor.py:161} INFO - Started process (PID=39409) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:17.755-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:17.758-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:17.758-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:17.772-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:17.781-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:17.781-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:14:17.801-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:17.801-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:14:17.888-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.159 seconds
+[2024-05-30T16:14:19.617-0500] {processor.py:161} INFO - Started process (PID=39425) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:19.620-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:19.625-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:19.623-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:19.649-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:19.668-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:19.667-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:14:19.708-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:19.707-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:14:19.803-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.206 seconds
+[2024-05-30T16:14:21.006-0500] {processor.py:161} INFO - Started process (PID=39441) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:21.007-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:21.010-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:21.009-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:21.022-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:21.031-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:21.031-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:14:21.050-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:21.050-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:14:21.115-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.117 seconds
+[2024-05-30T16:14:23.364-0500] {processor.py:161} INFO - Started process (PID=39456) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:23.367-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:23.373-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:23.372-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:23.393-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:23.418-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:23.408-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:14:23.450-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:23.450-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:14:23.509-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.178 seconds
+[2024-05-30T16:14:24.684-0500] {processor.py:161} INFO - Started process (PID=39463) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:24.691-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:24.696-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:24.695-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:24.710-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:24.722-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:24.721-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:14:24.748-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:24.748-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:14:24.815-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.157 seconds
+[2024-05-30T16:14:26.985-0500] {processor.py:161} INFO - Started process (PID=39491) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:26.986-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:26.989-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:26.988-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:26.997-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:27.086-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:27.085-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:14:27.101-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:27.101-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:14:27.194-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.216 seconds
+[2024-05-30T16:14:29.784-0500] {processor.py:161} INFO - Started process (PID=39507) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:29.785-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:29.786-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:29.786-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:29.795-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:29.803-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:29.803-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:14:29.822-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:29.822-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:14:29.948-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.173 seconds
+[2024-05-30T16:14:33.640-0500] {processor.py:161} INFO - Started process (PID=39540) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:33.641-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:33.643-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:33.643-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:33.647-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:33.646-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 17
+    def
+    ^^^
+SyntaxError: invalid syntax
+[2024-05-30T16:14:33.647-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:33.736-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.105 seconds
+[2024-05-30T16:14:38.850-0500] {processor.py:161} INFO - Started process (PID=39575) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:38.855-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:38.861-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:38.859-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:38.888-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:38.903-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:38.902-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:14:38.928-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:38.927-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:14:39.053-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.225 seconds
+[2024-05-30T16:14:40.327-0500] {processor.py:161} INFO - Started process (PID=39591) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:40.328-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:40.331-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:40.330-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:40.343-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:40.355-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:40.354-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:14:40.386-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:40.386-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:14:40.466-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.147 seconds
+[2024-05-30T16:14:41.613-0500] {processor.py:161} INFO - Started process (PID=39593) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:41.614-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:41.618-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:41.617-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:41.622-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:41.621-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 19
+    )
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-05-30T16:14:41.623-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:41.731-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.130 seconds
+[2024-05-30T16:14:45.483-0500] {processor.py:161} INFO - Started process (PID=39626) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:45.485-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:45.492-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:45.490-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:45.497-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:45.496-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 19
+    )
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-05-30T16:14:45.498-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:45.563-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.104 seconds
+[2024-05-30T16:14:47.849-0500] {processor.py:161} INFO - Started process (PID=39645) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:47.850-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:47.852-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:47.852-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:47.856-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:47.855-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 19
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-05-30T16:14:47.856-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:48.034-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.195 seconds
+[2024-05-30T16:14:51.891-0500] {processor.py:161} INFO - Started process (PID=39676) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:51.892-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:51.894-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:51.893-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:51.904-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:51.903-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 18, in <module>
+    start_date = da
+NameError: name 'da' is not defined
+[2024-05-30T16:14:51.905-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:52.011-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.135 seconds
+[2024-05-30T16:14:53.219-0500] {processor.py:161} INFO - Started process (PID=39693) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:53.220-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:53.222-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:53.221-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:53.228-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:53.226-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 14, in <module>
+    dag = DAG (
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 543, in __init__
+    if start_date and start_date.tzinfo:
+AttributeError: 'function' object has no attribute 'tzinfo'
+[2024-05-30T16:14:53.228-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:53.292-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.085 seconds
+[2024-05-30T16:14:54.617-0500] {processor.py:161} INFO - Started process (PID=39708) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:54.619-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:54.622-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:54.621-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:54.655-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:54.681-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:54.680-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:14:54.715-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:54.715-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to 2024-05-29 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T16:14:54.876-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.280 seconds
+[2024-05-30T16:14:57.140-0500] {processor.py:161} INFO - Started process (PID=39725) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:57.142-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:14:57.145-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:57.144-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:57.159-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:14:57.248-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:57.248-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:14:57.268-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:14:57.267-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to 2024-05-29 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T16:14:57.343-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.223 seconds
+[2024-05-30T16:15:05.174-0500] {processor.py:161} INFO - Started process (PID=39788) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:05.176-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:05.177-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:05.177-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:05.180-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:05.180-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 20
+    )
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-05-30T16:15:05.181-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:05.269-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.105 seconds
+[2024-05-30T16:15:08.279-0500] {processor.py:161} INFO - Started process (PID=39805) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:08.280-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:08.281-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:08.281-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:08.286-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:08.285-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 20
+    )
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-05-30T16:15:08.286-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:08.361-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.091 seconds
+[2024-05-30T16:15:09.433-0500] {processor.py:161} INFO - Started process (PID=39821) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:09.434-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:09.435-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:09.435-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:09.438-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:09.438-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 20
+    )
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-05-30T16:15:09.439-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:09.532-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.106 seconds
+[2024-05-30T16:15:15.680-0500] {processor.py:161} INFO - Started process (PID=39861) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:15.681-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:15.682-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:15.682-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:15.686-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:15.685-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 20
+    )
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-05-30T16:15:15.686-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:15.740-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.069 seconds
+[2024-05-30T16:15:19.089-0500] {processor.py:161} INFO - Started process (PID=39881) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:19.091-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:19.092-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:19.091-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:19.103-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:19.111-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:19.111-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:15:19.123-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:19.123-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:15:19.256-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.180 seconds
+[2024-05-30T16:15:24.366-0500] {processor.py:161} INFO - Started process (PID=39928) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:24.367-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:24.368-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:24.368-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:24.380-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:24.388-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:24.388-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:15:24.400-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:24.400-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:15:24.487-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.130 seconds
+[2024-05-30T16:15:30.320-0500] {processor.py:161} INFO - Started process (PID=39968) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:30.321-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:30.322-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:30.322-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:30.335-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:30.441-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:30.441-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:15:30.454-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:30.453-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:15:30.551-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.239 seconds
+[2024-05-30T16:15:32.369-0500] {processor.py:161} INFO - Started process (PID=39978) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:32.378-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:32.380-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:32.379-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:32.395-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:32.394-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 23, in <module>
+    tas
+NameError: name 'tas' is not defined
+[2024-05-30T16:15:32.396-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:32.639-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.304 seconds
+[2024-05-30T16:15:34.657-0500] {processor.py:161} INFO - Started process (PID=40010) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:34.658-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:34.660-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:34.659-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:34.665-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:34.664-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 23
+    task = 
+           ^
+SyntaxError: invalid syntax
+[2024-05-30T16:15:34.665-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:34.754-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.109 seconds
+[2024-05-30T16:15:35.941-0500] {processor.py:161} INFO - Started process (PID=40013) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:35.943-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:35.944-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:35.943-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:35.950-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:35.948-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 23, in <module>
+    task = B
+NameError: name 'B' is not defined
+[2024-05-30T16:15:35.950-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:36.012-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.078 seconds
+[2024-05-30T16:15:38.427-0500] {processor.py:161} INFO - Started process (PID=40033) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:38.428-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:38.430-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:38.429-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:38.442-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:38.450-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:38.449-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:15:38.461-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:38.461-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:15:38.579-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.171 seconds
+[2024-05-30T16:15:40.776-0500] {processor.py:161} INFO - Started process (PID=40050) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:40.778-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:40.780-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:40.779-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:40.794-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:40.791-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 23, in <module>
+    task = BashOperator(
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-05-30T16:15:40.795-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:40.860-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.109 seconds
+[2024-05-30T16:15:49.878-0500] {processor.py:161} INFO - Started process (PID=40124) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:49.880-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:49.881-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:49.880-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:49.888-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:49.887-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 24, in <module>
+    ts
+NameError: name 'ts' is not defined
+[2024-05-30T16:15:49.889-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:49.956-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.097 seconds
+[2024-05-30T16:15:54.578-0500] {processor.py:161} INFO - Started process (PID=40155) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:54.579-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:54.580-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:54.580-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:54.584-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:54.583-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 25
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-05-30T16:15:54.584-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:54.641-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.079 seconds
+[2024-05-30T16:15:58.157-0500] {processor.py:161} INFO - Started process (PID=40186) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:58.161-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:15:58.166-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:58.164-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:58.190-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:15:58.186-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 23, in <module>
+    task = BashOperator(
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-05-30T16:15:58.191-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:15:58.259-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.135 seconds
+[2024-05-30T16:16:03.276-0500] {processor.py:161} INFO - Started process (PID=40218) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:03.278-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:16:03.279-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:03.278-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:03.286-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:03.284-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 23, in <module>
+    task = BashOperator(
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-05-30T16:16:03.287-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:03.347-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.082 seconds
+[2024-05-30T16:16:12.376-0500] {processor.py:161} INFO - Started process (PID=40280) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:12.380-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:16:12.384-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:12.382-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:12.400-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:12.396-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 23, in <module>
+    task = BashOperator(
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-05-30T16:16:12.400-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:12.464-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.118 seconds
+[2024-05-30T16:16:26.279-0500] {processor.py:161} INFO - Started process (PID=40386) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:26.283-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:16:26.287-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:26.285-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:26.309-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:26.304-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 23, in <module>
+    task = BashOperator(
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-05-30T16:16:26.310-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:26.390-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.137 seconds
+[2024-05-30T16:16:28.086-0500] {processor.py:161} INFO - Started process (PID=40402) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:28.090-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:16:28.093-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:28.092-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:28.107-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:28.105-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 23, in <module>
+    task = BashOperator(
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-05-30T16:16:28.108-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:28.206-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.149 seconds
+[2024-05-30T16:16:36.352-0500] {processor.py:161} INFO - Started process (PID=40465) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:36.355-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:16:36.358-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:36.357-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:36.367-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:36.365-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 26
+    )
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-05-30T16:16:36.369-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:36.465-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.135 seconds
+[2024-05-30T16:16:39.833-0500] {processor.py:161} INFO - Started process (PID=40484) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:39.836-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:16:39.838-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:39.837-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:39.843-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:39.842-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 26
+    )
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-05-30T16:16:39.843-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:39.929-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.122 seconds
+[2024-05-30T16:16:41.144-0500] {processor.py:161} INFO - Started process (PID=40500) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:41.147-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:16:41.151-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:41.149-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:41.161-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:41.159-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 26
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-05-30T16:16:41.163-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:41.253-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.134 seconds
+[2024-05-30T16:16:44.971-0500] {processor.py:161} INFO - Started process (PID=40532) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:44.974-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:16:44.977-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:44.976-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:44.994-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:45.011-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:45.010-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:16:45.023-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:45.022-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:16:45.143-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.197 seconds
+[2024-05-30T16:16:48.006-0500] {processor.py:161} INFO - Started process (PID=40548) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:48.007-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:16:48.013-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:48.008-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:48.026-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:48.042-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:48.042-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:16:48.054-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:48.053-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:16:48.156-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.170 seconds
+[2024-05-30T16:16:50.192-0500] {processor.py:161} INFO - Started process (PID=40565) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:50.194-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:16:50.195-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:50.195-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:50.212-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:50.227-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:50.227-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:16:50.239-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:50.239-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:16:50.298-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.125 seconds
+[2024-05-30T16:16:53.903-0500] {processor.py:161} INFO - Started process (PID=40599) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:53.906-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:16:53.908-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:53.907-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:53.926-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:53.946-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:53.946-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:16:53.962-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:53.962-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:16:54.051-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.170 seconds
+[2024-05-30T16:16:57.482-0500] {processor.py:161} INFO - Started process (PID=40629) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:57.486-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:16:57.491-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:57.489-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:57.520-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:16:57.517-0500] {dagbag.py:355} ERROR - Failed to import: /home/diallo/airflow/dags/simple_test_hello_world.py
+Traceback (most recent call last):
+  File "/home/diallo/Documents/workspace/Python/AirFlowProjects/AirFlow01/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/diallo/airflow/dags/simple_test_hello_world.py", line 26, in <module>
+    dag = a
+NameError: name 'a' is not defined
+[2024-05-30T16:16:57.522-0500] {processor.py:842} WARNING - No viable dags retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:16:57.594-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.143 seconds
+[2024-05-30T16:17:00.371-0500] {processor.py:161} INFO - Started process (PID=40648) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:17:00.372-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:17:00.373-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:17:00.373-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:17:00.384-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:17:00.482-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:17:00.482-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:17:00.491-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:17:00.491-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:17:00.624-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.261 seconds
+[2024-05-30T16:17:08.950-0500] {processor.py:161} INFO - Started process (PID=40711) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:17:08.952-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:17:08.954-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:17:08.953-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:17:08.971-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:17:08.980-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:17:08.980-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:17:08.995-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:17:08.995-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:17:09.062-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.138 seconds
+[2024-05-30T16:17:10.787-0500] {processor.py:161} INFO - Started process (PID=40728) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:17:10.790-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:17:10.792-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:17:10.791-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:17:10.809-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:17:10.819-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:17:10.818-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:17:10.831-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:17:10.831-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:17:10.890-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.132 seconds
+[2024-05-30T16:17:41.533-0500] {processor.py:161} INFO - Started process (PID=40934) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:17:41.571-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:17:41.577-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:17:41.574-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:17:41.631-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:17:41.721-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:17:41.720-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:17:41.740-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:17:41.739-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:17:41.976-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.476 seconds
+[2024-05-30T16:18:12.446-0500] {processor.py:161} INFO - Started process (PID=41149) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:18:12.483-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:18:12.486-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:18:12.485-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:18:12.545-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:18:12.602-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:18:12.601-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:18:12.622-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:18:12.621-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:18:12.737-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.320 seconds
+[2024-05-30T16:18:43.657-0500] {processor.py:161} INFO - Started process (PID=41357) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:18:43.659-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:18:43.661-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:18:43.661-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:18:43.678-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:18:43.705-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:18:43.704-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:18:43.720-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:18:43.719-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:18:43.831-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.191 seconds
+[2024-05-30T16:19:14.768-0500] {processor.py:161} INFO - Started process (PID=41590) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:19:14.784-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:19:14.787-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:19:14.786-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:19:14.814-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:19:14.848-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:19:14.847-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:19:14.861-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:19:14.861-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:19:14.953-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.216 seconds
+[2024-05-30T16:19:45.780-0500] {processor.py:161} INFO - Started process (PID=41799) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:19:45.784-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:19:45.789-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:19:45.787-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:19:45.816-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:19:45.849-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:19:45.849-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:19:45.865-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:19:45.865-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:19:46.001-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.254 seconds
+[2024-05-30T16:20:16.708-0500] {processor.py:161} INFO - Started process (PID=42027) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:20:16.748-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:20:16.750-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:20:16.749-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:20:16.774-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:20:16.821-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:20:16.820-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:20:16.838-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:20:16.838-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:20:16.957-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.267 seconds
+[2024-05-30T16:20:47.235-0500] {processor.py:161} INFO - Started process (PID=42233) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:20:47.238-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:20:47.243-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:20:47.241-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:20:47.283-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:20:47.315-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:20:47.315-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:20:47.329-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:20:47.329-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:20:47.447-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.241 seconds
+[2024-05-30T16:21:17.623-0500] {processor.py:161} INFO - Started process (PID=42445) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:21:17.646-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:21:17.649-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:21:17.648-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:21:17.671-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:21:17.711-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:21:17.710-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:21:17.724-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:21:17.723-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:21:17.785-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.187 seconds
+[2024-05-30T16:21:48.037-0500] {processor.py:161} INFO - Started process (PID=42657) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:21:48.042-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:21:48.046-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:21:48.044-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:21:48.075-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:21:48.125-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:21:48.124-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:21:48.146-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:21:48.145-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:21:48.244-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.222 seconds
+[2024-05-30T16:22:18.567-0500] {processor.py:161} INFO - Started process (PID=42882) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:22:18.571-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:22:18.574-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:22:18.573-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:22:18.592-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:22:18.615-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:22:18.615-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:22:18.626-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:22:18.625-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:22:18.741-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.198 seconds
+[2024-05-30T16:22:49.129-0500] {processor.py:161} INFO - Started process (PID=43096) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:22:49.130-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:22:49.132-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:22:49.131-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:22:49.146-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:22:49.179-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:22:49.179-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:22:49.194-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:22:49.193-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:22:49.292-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.175 seconds
+[2024-05-30T16:23:19.634-0500] {processor.py:161} INFO - Started process (PID=43312) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:23:19.667-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:23:19.671-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:23:19.670-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:23:19.708-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:23:19.749-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:23:19.749-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:23:19.762-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:23:19.762-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:23:19.823-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.221 seconds
+[2024-05-30T16:23:50.071-0500] {processor.py:161} INFO - Started process (PID=43532) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:23:50.073-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:23:50.074-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:23:50.074-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:23:50.091-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:23:50.122-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:23:50.122-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:23:50.138-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:23:50.137-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:23:50.266-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.208 seconds
+[2024-05-30T16:24:20.641-0500] {processor.py:161} INFO - Started process (PID=43752) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:24:20.643-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:24:20.646-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:24:20.645-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:24:20.660-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:24:20.683-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:24:20.682-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:24:20.694-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:24:20.694-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:24:20.808-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.193 seconds
+[2024-05-30T16:24:50.983-0500] {processor.py:161} INFO - Started process (PID=43955) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:24:51.021-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:24:51.023-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:24:51.022-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:24:51.045-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:24:51.083-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:24:51.083-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:24:51.099-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:24:51.098-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:24:51.181-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.211 seconds
+[2024-05-30T16:25:37.576-0500] {processor.py:161} INFO - Started process (PID=44288) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:25:37.863-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:25:37.869-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:25:37.866-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:25:37.919-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:25:39.023-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:25:39.022-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:25:39.042-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:25:39.042-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:25:40.365-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 2.806 seconds
+[2024-05-30T16:26:11.239-0500] {processor.py:161} INFO - Started process (PID=44526) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:26:11.241-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:26:11.242-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:26:11.241-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:26:11.253-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:26:11.277-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:26:11.276-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:26:11.288-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:26:11.288-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:26:11.875-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.646 seconds
+[2024-05-30T16:26:42.127-0500] {processor.py:161} INFO - Started process (PID=44741) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:26:42.131-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:26:42.135-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:26:42.134-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:26:42.181-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:26:42.215-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:26:42.215-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:26:42.228-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:26:42.227-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:26:42.371-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.276 seconds
+[2024-05-30T16:27:13.203-0500] {processor.py:161} INFO - Started process (PID=44964) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:27:13.205-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:27:13.210-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:27:13.208-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:27:13.226-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:27:13.260-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:27:13.259-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:27:13.279-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:27:13.279-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:27:13.433-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.244 seconds
+[2024-05-30T16:27:44.183-0500] {processor.py:161} INFO - Started process (PID=45187) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:27:44.185-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:27:44.186-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:27:44.186-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:27:44.199-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:27:44.222-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:27:44.221-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:27:44.234-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:27:44.233-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:27:44.343-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.176 seconds
+[2024-05-30T16:28:15.171-0500] {processor.py:161} INFO - Started process (PID=45405) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:28:15.174-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:28:15.175-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:28:15.175-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:28:15.188-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:28:15.208-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:28:15.208-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:28:15.220-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:28:15.220-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:28:15.329-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.174 seconds
+[2024-05-30T16:28:46.118-0500] {processor.py:161} INFO - Started process (PID=45616) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:28:46.120-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:28:46.122-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:28:46.121-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:28:46.133-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:28:46.154-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:28:46.154-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:28:46.165-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:28:46.165-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:28:46.232-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.131 seconds
+[2024-05-30T16:29:17.011-0500] {processor.py:161} INFO - Started process (PID=45846) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:29:17.042-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:29:17.044-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:29:17.043-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:29:17.055-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:29:17.087-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:29:17.086-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:29:17.107-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:29:17.107-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:29:17.172-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.171 seconds
+[2024-05-30T16:29:48.190-0500] {processor.py:161} INFO - Started process (PID=46060) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:29:48.192-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:29:48.194-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:29:48.193-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:29:48.211-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:29:48.243-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:29:48.243-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:29:48.263-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:29:48.263-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:29:48.365-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.196 seconds
+[2024-05-30T16:30:19.297-0500] {processor.py:161} INFO - Started process (PID=46293) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:30:19.336-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:30:19.339-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:30:19.338-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:30:19.354-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:30:19.394-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:30:19.393-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:30:19.414-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:30:19.413-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:30:19.515-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.240 seconds
+[2024-05-30T16:30:50.343-0500] {processor.py:161} INFO - Started process (PID=46502) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:30:50.347-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:30:50.351-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:30:50.349-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:30:50.387-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:30:50.426-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:30:50.425-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:30:50.447-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:30:50.447-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:30:50.567-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.248 seconds
+[2024-05-30T16:31:21.350-0500] {processor.py:161} INFO - Started process (PID=46723) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:31:21.353-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:31:21.356-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:31:21.355-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:31:21.382-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:31:21.424-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:31:21.424-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:31:21.440-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:31:21.440-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:31:21.525-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.209 seconds
+[2024-05-30T16:31:52.257-0500] {processor.py:161} INFO - Started process (PID=46931) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:31:52.261-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:31:52.266-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:31:52.264-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:31:52.288-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:31:52.326-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:31:52.326-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:31:52.344-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:31:52.344-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:31:52.474-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.248 seconds
+[2024-05-30T16:32:22.847-0500] {processor.py:161} INFO - Started process (PID=47153) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:32:22.848-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:32:22.849-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:32:22.848-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:32:22.860-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:32:22.886-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:32:22.886-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:32:22.900-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:32:22.900-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:32:22.998-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.159 seconds
+[2024-05-30T16:32:53.367-0500] {processor.py:161} INFO - Started process (PID=47370) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:32:53.409-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:32:53.410-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:32:53.410-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:32:53.431-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:32:53.478-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:32:53.478-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:32:53.498-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:32:53.498-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:32:53.570-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.234 seconds
+[2024-05-30T16:33:24.008-0500] {processor.py:161} INFO - Started process (PID=47579) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:33:24.010-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:33:24.012-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:33:24.011-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:33:24.022-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:33:24.052-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:33:24.052-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:33:24.069-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:33:24.069-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:33:24.165-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.166 seconds
+[2024-05-30T16:33:54.474-0500] {processor.py:161} INFO - Started process (PID=47786) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:33:54.475-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:33:54.477-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:33:54.476-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:33:54.490-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:33:54.512-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:33:54.511-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:33:54.523-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:33:54.522-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:33:54.599-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.144 seconds
+[2024-05-30T16:34:24.848-0500] {processor.py:161} INFO - Started process (PID=48021) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:34:24.881-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:34:24.884-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:34:24.883-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:34:24.918-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:34:24.963-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:34:24.962-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:34:24.977-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:34:24.977-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:34:25.079-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.268 seconds
+[2024-05-30T16:34:55.778-0500] {processor.py:161} INFO - Started process (PID=48230) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:34:55.806-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:34:55.807-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:34:55.807-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:34:55.821-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:34:55.853-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:34:55.853-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:34:55.869-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:34:55.868-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:34:56.881-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 1.110 seconds
+[2024-05-30T16:35:28.720-0500] {processor.py:161} INFO - Started process (PID=48454) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:35:28.726-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:35:28.728-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:35:28.727-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:35:28.743-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:35:28.773-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:35:28.773-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:35:28.793-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:35:28.791-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:35:29.544-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.836 seconds
+[2024-05-30T16:36:00.550-0500] {processor.py:161} INFO - Started process (PID=48682) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:36:00.552-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:36:00.553-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:36:00.553-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:36:00.566-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:36:00.590-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:36:00.589-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:36:00.601-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:36:00.600-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:36:01.271-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.735 seconds
+[2024-05-30T16:36:31.939-0500] {processor.py:161} INFO - Started process (PID=48911) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:36:31.977-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:36:31.979-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:36:31.978-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:36:31.998-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:36:32.078-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:36:32.078-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:36:32.101-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:36:32.101-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:36:32.203-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.279 seconds
+[2024-05-30T16:37:02.937-0500] {processor.py:161} INFO - Started process (PID=49135) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:37:02.940-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:37:02.944-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:37:02.942-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:37:02.974-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:37:03.003-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:37:03.002-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:37:03.017-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:37:03.017-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:37:03.085-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.172 seconds
+[2024-05-30T16:37:33.904-0500] {processor.py:161} INFO - Started process (PID=49353) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:37:33.915-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:37:33.916-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:37:33.916-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:37:33.936-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:37:33.977-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:37:33.977-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:37:33.999-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:37:33.998-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:37:34.103-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.220 seconds
+[2024-05-30T16:38:05.041-0500] {processor.py:161} INFO - Started process (PID=49575) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:38:05.044-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:38:05.048-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:38:05.046-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:38:05.067-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:38:05.098-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:38:05.098-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:38:05.113-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:38:05.113-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:38:05.219-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.200 seconds
+[2024-05-30T16:38:35.693-0500] {processor.py:161} INFO - Started process (PID=49785) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:38:35.732-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:38:35.734-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:38:35.733-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:38:35.751-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:38:35.779-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:38:35.778-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:38:35.791-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:38:35.791-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:38:35.873-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.186 seconds
+[2024-05-30T16:39:06.478-0500] {processor.py:161} INFO - Started process (PID=50007) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:39:06.480-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:39:06.481-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:39:06.481-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:39:06.494-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:39:06.518-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:39:06.518-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:39:06.533-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:39:06.533-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:39:06.610-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.153 seconds
+[2024-05-30T16:39:37.348-0500] {processor.py:161} INFO - Started process (PID=50227) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:39:37.384-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:39:37.385-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:39:37.384-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:39:37.400-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:39:37.425-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:39:37.425-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:39:37.436-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:39:37.436-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:39:37.598-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.265 seconds
+[2024-05-30T16:40:08.202-0500] {processor.py:161} INFO - Started process (PID=50427) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:40:08.203-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:40:08.205-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:40:08.205-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:40:08.216-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:40:08.237-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:40:08.237-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:40:08.248-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:40:08.248-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:40:08.317-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.130 seconds
+[2024-05-30T16:40:39.060-0500] {processor.py:161} INFO - Started process (PID=50655) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:40:39.080-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:40:39.082-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:40:39.081-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:40:39.099-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:40:39.128-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:40:39.128-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:40:39.143-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:40:39.143-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:40:39.224-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.182 seconds
+[2024-05-30T16:41:09.884-0500] {processor.py:161} INFO - Started process (PID=50871) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:41:09.887-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:41:09.891-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:41:09.890-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:41:09.906-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:41:09.929-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:41:09.928-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:41:09.942-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:41:09.942-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:41:09.998-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.138 seconds
+[2024-05-30T16:41:40.743-0500] {processor.py:161} INFO - Started process (PID=51106) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:41:40.779-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:41:40.782-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:41:40.781-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:41:40.801-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:41:40.839-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:41:40.839-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:41:40.855-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:41:40.855-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:41:40.951-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.235 seconds
+[2024-05-30T16:42:11.452-0500] {processor.py:161} INFO - Started process (PID=51340) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:42:11.453-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:42:11.454-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:42:11.453-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:42:11.463-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:42:11.485-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:42:11.485-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:42:11.496-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:42:11.496-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:42:11.572-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.129 seconds
+[2024-05-30T16:42:42.199-0500] {processor.py:161} INFO - Started process (PID=51551) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:42:42.237-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:42:42.239-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:42:42.239-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:42:42.248-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:42:42.271-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:42:42.271-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:42:42.283-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:42:42.283-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:42:42.344-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.156 seconds
+[2024-05-30T16:43:12.663-0500] {processor.py:161} INFO - Started process (PID=51765) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:43:12.664-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:43:12.665-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:43:12.665-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:43:12.678-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:43:12.700-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:43:12.699-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:43:12.712-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:43:12.711-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:43:12.950-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.301 seconds
+[2024-05-30T16:43:43.415-0500] {processor.py:161} INFO - Started process (PID=52002) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:43:43.422-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:43:43.427-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:43:43.425-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:43:43.462-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:43:43.505-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:43:43.505-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:43:43.517-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:43:43.517-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:43:43.582-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.193 seconds
+[2024-05-30T16:44:13.723-0500] {processor.py:161} INFO - Started process (PID=52229) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:44:13.724-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:44:13.726-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:44:13.725-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:44:13.739-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:44:13.761-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:44:13.760-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:44:13.772-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:44:13.772-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:44:13.856-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.146 seconds
+[2024-05-30T16:44:44.157-0500] {processor.py:161} INFO - Started process (PID=52442) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:44:44.195-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:44:44.198-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:44:44.197-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:44:44.225-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:44:44.250-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:44:44.249-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:44:44.262-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:44:44.261-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:44:44.332-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.193 seconds
+[2024-05-30T16:45:14.682-0500] {processor.py:161} INFO - Started process (PID=52664) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:45:14.684-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:45:14.686-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:45:14.685-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:45:14.698-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:45:14.718-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:45:14.718-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:45:14.729-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:45:14.729-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:45:14.862-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.200 seconds
+[2024-05-30T16:45:45.180-0500] {processor.py:161} INFO - Started process (PID=52869) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:45:45.181-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:45:45.183-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:45:45.182-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:45:45.195-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:45:45.216-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:45:45.216-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:45:45.228-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:45:45.228-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:45:45.297-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.135 seconds
+[2024-05-30T16:46:15.588-0500] {processor.py:161} INFO - Started process (PID=53092) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:46:15.621-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:46:15.624-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:46:15.623-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:46:15.654-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:46:15.680-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:46:15.680-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:46:15.692-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:46:15.692-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:46:15.770-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.204 seconds
+[2024-05-30T16:46:46.080-0500] {processor.py:161} INFO - Started process (PID=53301) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:46:46.118-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:46:46.122-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:46:46.121-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:46:46.147-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:46:46.173-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:46:46.172-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:46:46.183-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:46:46.183-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:46:46.252-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.181 seconds
+[2024-05-30T16:47:16.508-0500] {processor.py:161} INFO - Started process (PID=53509) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:47:16.510-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:47:16.512-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:47:16.511-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:47:16.524-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:47:16.546-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:47:16.546-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:47:16.561-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:47:16.561-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:47:16.657-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.167 seconds
+[2024-05-30T16:47:46.914-0500] {processor.py:161} INFO - Started process (PID=53729) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:47:46.946-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:47:46.949-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:47:46.948-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:47:46.973-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:47:46.998-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:47:46.997-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:47:47.009-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:47:47.009-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:47:47.081-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.189 seconds
+[2024-05-30T16:48:17.487-0500] {processor.py:161} INFO - Started process (PID=53940) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:48:17.489-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:48:17.491-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:48:17.490-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:48:17.502-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:48:17.527-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:48:17.527-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:48:17.537-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:48:17.537-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:48:17.605-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.138 seconds
+[2024-05-30T16:48:47.833-0500] {processor.py:161} INFO - Started process (PID=54289) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:48:47.873-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:48:47.875-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:48:47.874-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:48:47.900-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:48:47.926-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:48:47.925-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:48:47.936-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:48:47.936-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:48:48.017-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.201 seconds
+[2024-05-30T16:49:18.317-0500] {processor.py:161} INFO - Started process (PID=54494) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:49:18.320-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:49:18.322-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:49:18.321-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:49:18.336-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:49:18.356-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:49:18.356-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:49:18.366-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:49:18.366-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:49:18.471-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.171 seconds
+[2024-05-30T16:51:43.081-0500] {processor.py:161} INFO - Started process (PID=54786) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:51:43.118-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:51:43.119-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:51:43.119-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:51:43.131-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:51:43.155-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:51:43.155-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:51:43.165-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:51:43.165-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:51:43.225-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.150 seconds
+[2024-05-30T16:52:13.812-0500] {processor.py:161} INFO - Started process (PID=55131) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:52:13.813-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:52:13.815-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:52:13.814-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:52:13.825-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:52:13.845-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:52:13.845-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:52:13.856-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:52:13.856-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:52:13.924-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.131 seconds
+[2024-05-30T16:52:44.198-0500] {processor.py:161} INFO - Started process (PID=55514) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:52:44.210-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:52:44.212-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:52:44.211-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:52:44.228-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:52:44.252-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:52:44.252-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:52:44.264-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:52:44.263-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:52:44.358-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.174 seconds
+[2024-05-30T16:53:14.555-0500] {processor.py:161} INFO - Started process (PID=55971) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:53:14.685-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:53:14.690-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:53:14.688-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:53:14.712-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:53:14.741-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:53:14.741-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:53:14.754-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:53:14.753-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:53:15.065-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.532 seconds
+[2024-05-30T16:53:45.582-0500] {processor.py:161} INFO - Started process (PID=56415) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:53:45.588-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:53:45.591-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:53:45.589-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:53:45.608-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:53:45.632-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:53:45.632-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:53:45.643-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:53:45.643-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:53:45.759-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.207 seconds
+[2024-05-30T16:54:15.970-0500] {processor.py:161} INFO - Started process (PID=56829) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:54:16.000-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:54:16.003-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:54:16.001-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:54:16.024-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:54:16.047-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:54:16.047-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:54:16.058-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:54:16.058-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:54:16.154-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.191 seconds
+[2024-05-30T16:54:46.292-0500] {processor.py:161} INFO - Started process (PID=57050) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:54:46.293-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:54:46.294-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:54:46.294-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:54:46.305-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:54:46.325-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:54:46.324-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:54:46.335-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:54:46.335-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:54:46.481-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.203 seconds
+[2024-05-30T16:55:16.668-0500] {processor.py:161} INFO - Started process (PID=57481) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:55:16.717-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:55:16.718-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:55:16.718-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:55:16.727-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:55:16.768-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:55:16.767-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:55:16.791-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:55:16.790-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:55:17.698-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 1.037 seconds
+[2024-05-30T16:55:47.798-0500] {processor.py:161} INFO - Started process (PID=57823) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:55:47.799-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:55:47.800-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:55:47.799-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:55:47.811-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:55:47.831-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:55:47.831-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:55:47.843-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:55:47.843-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:55:47.920-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.129 seconds
+[2024-05-30T16:56:18.218-0500] {processor.py:161} INFO - Started process (PID=58043) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:56:18.256-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:56:18.258-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:56:18.258-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:56:18.279-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:56:18.302-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:56:18.302-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:56:18.314-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:56:18.314-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:56:18.402-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.193 seconds
+[2024-05-30T16:56:48.742-0500] {processor.py:161} INFO - Started process (PID=58264) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:56:48.744-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:56:48.745-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:56:48.745-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:56:48.760-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:56:48.781-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:56:48.781-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:56:48.793-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:56:48.793-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:56:48.866-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.146 seconds
+[2024-05-30T16:57:19.092-0500] {processor.py:161} INFO - Started process (PID=58469) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:57:19.133-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:57:19.134-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:57:19.134-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:57:19.147-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:57:19.172-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:57:19.172-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:57:19.184-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:57:19.184-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:57:19.264-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.192 seconds
+[2024-05-30T16:57:49.581-0500] {processor.py:161} INFO - Started process (PID=58694) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:57:49.611-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:57:49.612-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:57:49.611-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:57:49.623-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:57:49.645-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:57:49.645-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:57:49.658-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:57:49.658-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:57:49.712-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.138 seconds
+[2024-05-30T16:58:19.807-0500] {processor.py:161} INFO - Started process (PID=58897) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:58:19.809-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:58:19.811-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:58:19.810-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:58:19.824-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:58:19.844-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:58:19.844-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:58:19.854-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:58:19.854-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:58:19.937-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.141 seconds
+[2024-05-30T16:58:50.302-0500] {processor.py:161} INFO - Started process (PID=59122) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:58:50.303-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:58:50.305-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:58:50.304-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:58:50.316-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:58:50.337-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:58:50.337-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:58:50.347-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:58:50.347-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:58:50.508-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.221 seconds
+[2024-05-30T16:59:20.818-0500] {processor.py:161} INFO - Started process (PID=59331) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:59:20.853-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:59:20.856-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:59:20.855-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:59:20.877-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:59:20.900-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:59:20.899-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:59:20.910-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:59:20.910-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:59:20.972-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.172 seconds
+[2024-05-30T16:59:51.177-0500] {processor.py:161} INFO - Started process (PID=59551) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:59:51.219-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T16:59:51.223-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:59:51.221-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:59:51.247-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T16:59:51.271-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:59:51.270-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T16:59:51.282-0500] {logging_mixin.py:188} INFO - [2024-05-30T16:59:51.281-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T16:59:51.468-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.298 seconds
+[2024-05-30T17:00:21.802-0500] {processor.py:161} INFO - Started process (PID=59757) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:00:21.833-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T17:00:21.835-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:00:21.834-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:00:21.848-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:00:21.874-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:00:21.874-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T17:00:21.886-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:00:21.886-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T17:00:21.963-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.179 seconds
+[2024-05-30T17:00:52.078-0500] {processor.py:161} INFO - Started process (PID=59984) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:00:52.079-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T17:00:52.080-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:00:52.080-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:00:52.092-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:00:52.113-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:00:52.112-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T17:00:52.124-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:00:52.124-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T17:00:52.240-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.179 seconds
+[2024-05-30T17:02:10.614-0500] {processor.py:161} INFO - Started process (PID=60336) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:02:10.650-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T17:02:10.654-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:02:10.653-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:02:10.679-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:02:10.703-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:02:10.702-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T17:02:10.713-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:02:10.713-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T17:02:10.772-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.177 seconds
+[2024-05-30T17:02:40.931-0500] {processor.py:161} INFO - Started process (PID=60606) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:02:40.933-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T17:02:40.935-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:02:40.934-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:02:40.949-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:02:40.969-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:02:40.969-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T17:02:40.980-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:02:40.980-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T17:02:41.053-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.137 seconds
+[2024-05-30T17:03:11.567-0500] {processor.py:161} INFO - Started process (PID=60854) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:03:11.652-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T17:03:11.654-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:03:11.653-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:03:11.678-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:03:11.705-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:03:11.705-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T17:03:11.715-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:03:11.714-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T17:03:11.776-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.225 seconds
+[2024-05-30T17:03:42.514-0500] {processor.py:161} INFO - Started process (PID=61075) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:03:42.515-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T17:03:42.516-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:03:42.516-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:03:42.524-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:03:42.543-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:03:42.543-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T17:03:42.553-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:03:42.553-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T17:03:42.631-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.122 seconds
+[2024-05-30T17:04:12.856-0500] {processor.py:161} INFO - Started process (PID=61285) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:04:12.899-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T17:04:12.902-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:04:12.901-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:04:12.924-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:04:12.950-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:04:12.950-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T17:04:12.960-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:04:12.960-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T17:04:13.037-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.196 seconds
+[2024-05-30T17:04:44.212-0500] {processor.py:161} INFO - Started process (PID=61505) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:04:44.214-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T17:04:44.216-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:04:44.215-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:04:44.231-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:04:44.251-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:04:44.251-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T17:04:44.261-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:04:44.261-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T17:04:44.326-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.129 seconds
+[2024-05-30T17:05:14.556-0500] {processor.py:161} INFO - Started process (PID=61726) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:05:14.597-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T17:05:14.600-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:05:14.599-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:05:14.624-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:05:14.654-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:05:14.654-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T17:05:14.667-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:05:14.667-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T17:05:14.773-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.232 seconds
+[2024-05-30T17:05:45.719-0500] {processor.py:161} INFO - Started process (PID=61952) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:05:45.720-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T17:05:45.723-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:05:45.722-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:05:45.738-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:05:45.758-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:05:45.758-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T17:05:45.769-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:05:45.769-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T17:05:45.866-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.162 seconds
+[2024-05-30T17:06:16.070-0500] {processor.py:161} INFO - Started process (PID=62159) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:06:16.122-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T17:06:16.125-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:06:16.124-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:06:16.147-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:06:16.173-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:06:16.173-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T17:06:16.184-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:06:16.184-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T17:06:16.241-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.186 seconds
+[2024-05-30T17:06:46.405-0500] {processor.py:161} INFO - Started process (PID=62380) to work on /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:06:46.407-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/simple_test_hello_world.py for tasks to queue
+[2024-05-30T17:06:46.410-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:06:46.409-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:06:46.423-0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /home/diallo/airflow/dags/simple_test_hello_world.py
+[2024-05-30T17:06:46.443-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:06:46.443-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T17:06:46.453-0500] {logging_mixin.py:188} INFO - [2024-05-30T17:06:46.453-0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2024-05-30T17:06:46.516-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/simple_test_hello_world.py took 0.126 seconds

@@ -1,0 +1,119 @@
+[2024-06-03T13:30:10.232-0500] {processor.py:161} INFO - Started process (PID=7074) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:30:10.233-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:30:10.234-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:30:10.234-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:30:10.245-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:30:10.333-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:30:10.333-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:30:10.349-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:30:10.349-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-02 00:00:00+00:00, run_after=2024-06-03 00:00:00+00:00
+[2024-06-03T13:30:10.372-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.147 seconds
+[2024-06-03T13:30:40.537-0500] {processor.py:161} INFO - Started process (PID=7096) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:30:40.540-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:30:40.542-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:30:40.541-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:30:40.551-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:30:40.569-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:30:40.569-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:30:40.587-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:30:40.587-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:30:40.616-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.087 seconds
+[2024-06-03T13:31:10.913-0500] {processor.py:161} INFO - Started process (PID=7112) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:31:10.917-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:31:10.918-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:31:10.918-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:31:10.930-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:31:10.950-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:31:10.949-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:31:10.967-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:31:10.967-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:31:10.990-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.083 seconds
+[2024-06-03T13:31:41.576-0500] {processor.py:161} INFO - Started process (PID=7184) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:31:41.577-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:31:41.581-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:31:41.581-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:31:41.595-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:31:41.614-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:31:41.614-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:31:41.632-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:31:41.632-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:31:41.656-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.098 seconds
+[2024-06-03T13:32:11.989-0500] {processor.py:161} INFO - Started process (PID=7210) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:32:11.990-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:32:11.992-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:32:11.991-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:32:12.005-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:32:12.025-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:32:12.025-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:32:12.053-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:32:12.053-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:32:12.081-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.098 seconds
+[2024-06-03T13:32:42.594-0500] {processor.py:161} INFO - Started process (PID=7252) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:32:42.599-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:32:42.603-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:32:42.602-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:32:42.629-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:32:42.651-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:32:42.651-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:32:42.670-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:32:42.669-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:32:42.694-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.117 seconds
+[2024-06-03T13:33:13.031-0500] {processor.py:161} INFO - Started process (PID=7260) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:33:13.036-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:33:13.042-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:33:13.040-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:33:13.067-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:33:13.088-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:33:13.088-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:33:13.107-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:33:13.106-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:33:13.130-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.105 seconds
+[2024-06-03T13:33:43.489-0500] {processor.py:161} INFO - Started process (PID=7323) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:33:43.490-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:33:43.493-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:33:43.492-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:33:43.503-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:33:43.526-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:33:43.526-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:33:43.547-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:33:43.546-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:33:43.569-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.086 seconds
+[2024-06-03T13:34:14.158-0500] {processor.py:161} INFO - Started process (PID=7396) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:34:14.160-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:34:14.165-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:34:14.164-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:34:14.185-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:34:14.208-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:34:14.207-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:34:14.227-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:34:14.226-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:34:14.251-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.117 seconds
+[2024-06-03T13:34:44.840-0500] {processor.py:161} INFO - Started process (PID=7404) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:34:44.844-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:34:44.847-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:34:44.846-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:34:44.862-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:34:44.884-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:34:44.884-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:34:44.904-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:34:44.903-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:34:44.927-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.097 seconds
+[2024-06-03T13:35:15.449-0500] {processor.py:161} INFO - Started process (PID=7426) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:35:15.451-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:35:15.454-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:35:15.453-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:35:15.469-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:35:15.492-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:35:15.492-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:35:15.514-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:35:15.514-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:35:15.544-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.109 seconds
+[2024-06-03T13:48:12.134-0500] {processor.py:161} INFO - Started process (PID=9670) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:48:12.139-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:48:12.141-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:48:12.141-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:48:12.154-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:48:12.176-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:48:12.175-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:48:12.193-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:48:12.193-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:48:12.226-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.109 seconds
+[2024-06-03T13:48:42.375-0500] {processor.py:161} INFO - Started process (PID=9701) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:48:42.378-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:48:42.380-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:48:42.379-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:48:42.393-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:48:42.415-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:48:42.415-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:48:42.443-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:48:42.443-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:48:42.475-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.108 seconds
+[2024-06-03T13:49:12.949-0500] {processor.py:161} INFO - Started process (PID=9799) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:49:12.950-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:49:12.952-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:49:12.952-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:49:12.968-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:49:12.998-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:49:12.997-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:49:13.017-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:49:13.016-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:49:13.048-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.106 seconds
+[2024-06-03T13:49:43.573-0500] {processor.py:161} INFO - Started process (PID=10160) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:49:43.576-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:49:43.578-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:49:43.578-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:49:43.590-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:49:43.610-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:49:43.610-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:49:43.629-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:49:43.629-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:49:43.656-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.091 seconds
+[2024-06-03T13:50:14.042-0500] {processor.py:161} INFO - Started process (PID=10190) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:50:14.044-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:50:14.049-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:50:14.048-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:50:14.070-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:50:14.090-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:50:14.090-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:50:14.110-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:50:14.109-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:50:14.132-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.110 seconds
+[2024-06-03T13:50:44.652-0500] {processor.py:161} INFO - Started process (PID=10219) to work on /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:50:44.656-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_python_operator.py for tasks to queue
+[2024-06-03T13:50:44.660-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:50:44.659-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:50:44.687-0500] {processor.py:840} INFO - DAG(s) 'python_ops' retrieved from /home/diallo/airflow/dags/execute_python_operator.py
+[2024-06-03T13:50:44.710-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:50:44.709-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:50:44.728-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:50:44.728-0500] {dag.py:3954} INFO - Setting next_dagrun for python_ops to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:50:44.752-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_python_operator.py took 0.106 seconds

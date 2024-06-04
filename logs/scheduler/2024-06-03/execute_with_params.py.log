@@ -1,0 +1,119 @@
+[2024-06-03T13:30:06.125-0500] {processor.py:161} INFO - Started process (PID=7063) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:30:06.126-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:30:06.128-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:30:06.127-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:30:06.140-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:30:06.250-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:30:06.250-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:30:06.269-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:30:06.269-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-02 00:00:00+00:00, run_after=2024-06-03 00:00:00+00:00
+[2024-06-03T13:30:06.292-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.173 seconds
+[2024-06-03T13:30:36.457-0500] {processor.py:161} INFO - Started process (PID=7094) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:30:36.460-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:30:36.475-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:30:36.474-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:30:36.496-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:30:36.516-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:30:36.516-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:30:36.534-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:30:36.533-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:30:36.557-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.106 seconds
+[2024-06-03T13:31:06.906-0500] {processor.py:161} INFO - Started process (PID=7110) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:31:06.909-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:31:06.911-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:31:06.910-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:31:06.922-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:31:06.942-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:31:06.942-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:31:06.959-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:31:06.959-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:31:06.984-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.083 seconds
+[2024-06-03T13:31:37.312-0500] {processor.py:161} INFO - Started process (PID=7183) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:31:37.317-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:31:37.322-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:31:37.320-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:31:37.371-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:31:37.411-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:31:37.411-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:31:37.432-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:31:37.431-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:31:37.463-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.175 seconds
+[2024-06-03T13:32:07.724-0500] {processor.py:161} INFO - Started process (PID=7190) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:32:07.726-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:32:07.729-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:32:07.728-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:32:07.747-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:32:07.767-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:32:07.767-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:32:07.786-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:32:07.785-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:32:07.809-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.100 seconds
+[2024-06-03T13:32:38.224-0500] {processor.py:161} INFO - Started process (PID=7249) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:32:38.229-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:32:38.232-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:32:38.231-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:32:38.251-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:32:38.287-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:32:38.286-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:32:38.317-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:32:38.316-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:32:38.346-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.134 seconds
+[2024-06-03T13:33:08.646-0500] {processor.py:161} INFO - Started process (PID=7259) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:33:08.647-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:33:08.648-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:33:08.648-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:33:08.658-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:33:08.677-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:33:08.677-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:33:08.695-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:33:08.695-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:33:08.725-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.085 seconds
+[2024-06-03T13:33:38.957-0500] {processor.py:161} INFO - Started process (PID=7267) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:33:38.960-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:33:38.962-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:33:38.962-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:33:38.973-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:33:38.994-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:33:38.993-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:33:39.011-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:33:39.011-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:33:39.042-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.091 seconds
+[2024-06-03T13:34:09.386-0500] {processor.py:161} INFO - Started process (PID=7395) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:34:09.390-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:34:09.395-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:34:09.394-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:34:09.421-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:34:09.445-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:34:09.444-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:34:09.462-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:34:09.462-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:34:09.489-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.121 seconds
+[2024-06-03T13:34:39.776-0500] {processor.py:161} INFO - Started process (PID=7402) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:34:39.779-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:34:39.787-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:34:39.785-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:34:39.810-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:34:39.835-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:34:39.835-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:34:39.855-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:34:39.854-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:34:39.882-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.129 seconds
+[2024-06-03T13:35:10.361-0500] {processor.py:161} INFO - Started process (PID=7425) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:35:10.363-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:35:10.365-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:35:10.364-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:35:10.380-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:35:10.403-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:35:10.403-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:35:10.424-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:35:10.423-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:35:10.451-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.100 seconds
+[2024-06-03T13:48:10.931-0500] {processor.py:161} INFO - Started process (PID=9668) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:48:10.932-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:48:10.933-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:48:10.933-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:48:10.947-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:48:10.973-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:48:10.972-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:48:10.993-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:48:10.992-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:48:11.018-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.094 seconds
+[2024-06-03T13:48:41.112-0500] {processor.py:161} INFO - Started process (PID=9698) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:48:41.113-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:48:41.115-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:48:41.114-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:48:41.127-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:48:41.150-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:48:41.149-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:48:41.172-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:48:41.172-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:48:41.203-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.098 seconds
+[2024-06-03T13:49:11.773-0500] {processor.py:161} INFO - Started process (PID=9796) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:49:11.773-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:49:11.775-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:49:11.774-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:49:11.785-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:49:11.805-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:49:11.805-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:49:11.823-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:49:11.823-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:49:11.855-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.088 seconds
+[2024-06-03T13:49:42.286-0500] {processor.py:161} INFO - Started process (PID=10159) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:49:42.291-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:49:42.294-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:49:42.293-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:49:42.308-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:49:42.327-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:49:42.327-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:49:42.345-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:49:42.345-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:49:42.371-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.103 seconds
+[2024-06-03T13:50:12.549-0500] {processor.py:161} INFO - Started process (PID=10189) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:50:12.550-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:50:12.552-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:50:12.552-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:50:12.564-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:50:12.583-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:50:12.583-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:50:12.601-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:50:12.601-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:50:12.635-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.095 seconds
+[2024-06-03T13:50:43.395-0500] {processor.py:161} INFO - Started process (PID=10218) to work on /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:50:43.399-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_with_params.py for tasks to queue
+[2024-06-03T13:50:43.401-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:50:43.401-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:50:43.415-0500] {processor.py:840} INFO - DAG(s) 'python_operators_with_param' retrieved from /home/diallo/airflow/dags/execute_with_params.py
+[2024-06-03T13:50:43.435-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:50:43.435-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T13:50:43.454-0500] {logging_mixin.py:188} INFO - [2024-06-03T13:50:43.454-0500] {dag.py:3954} INFO - Setting next_dagrun for python_operators_with_param to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T13:50:43.488-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_with_params.py took 0.110 seconds

@@ -1,0 +1,1085 @@
+[2024-05-30T23:33:28.818-0500] {processor.py:161} INFO - Started process (PID=9262) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:33:28.818-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:33:28.820-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:33:28.820-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:33:28.832-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:33:28.969-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:33:28.969-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:33:28.985-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:33:28.984-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:33:29.019-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.209 seconds
+[2024-05-30T23:34:00.038-0500] {processor.py:161} INFO - Started process (PID=9317) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:34:00.042-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:34:00.044-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:34:00.044-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:34:00.058-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:34:00.076-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:34:00.076-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:34:00.092-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:34:00.092-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:34:00.114-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.092 seconds
+[2024-05-30T23:34:30.474-0500] {processor.py:161} INFO - Started process (PID=9328) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:34:30.479-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:34:30.482-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:34:30.481-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:34:30.495-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:34:30.514-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:34:30.514-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:34:30.531-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:34:30.530-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:34:30.562-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.105 seconds
+[2024-05-30T23:35:00.792-0500] {processor.py:161} INFO - Started process (PID=9337) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:35:00.795-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:35:00.796-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:35:00.796-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:35:00.808-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:35:00.831-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:35:00.831-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:35:00.848-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:35:00.848-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:35:00.873-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.087 seconds
+[2024-05-30T23:35:31.162-0500] {processor.py:161} INFO - Started process (PID=9350) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:35:31.165-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:35:31.167-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:35:31.167-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:35:31.179-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:35:31.200-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:35:31.199-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:35:31.221-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:35:31.220-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:35:31.250-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.096 seconds
+[2024-05-30T23:36:01.537-0500] {processor.py:161} INFO - Started process (PID=9427) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:36:01.541-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:36:01.544-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:36:01.543-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:36:01.555-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:36:01.575-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:36:01.575-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:36:01.592-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:36:01.592-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:36:01.618-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.098 seconds
+[2024-05-30T23:36:31.861-0500] {processor.py:161} INFO - Started process (PID=9429) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:36:31.865-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:36:31.866-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:36:31.866-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:36:31.875-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:36:31.895-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:36:31.895-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:36:31.912-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:36:31.912-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:36:31.933-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.078 seconds
+[2024-05-30T23:37:02.334-0500] {processor.py:161} INFO - Started process (PID=9446) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:37:02.336-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:37:02.339-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:37:02.338-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:37:02.351-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:37:02.370-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:37:02.370-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:37:02.387-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:37:02.387-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:37:02.410-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.095 seconds
+[2024-05-30T23:37:32.667-0500] {processor.py:161} INFO - Started process (PID=9464) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:37:32.669-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:37:32.671-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:37:32.670-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:37:32.680-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:37:32.701-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:37:32.701-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:37:32.718-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:37:32.717-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:37:32.747-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.086 seconds
+[2024-05-30T23:38:03.095-0500] {processor.py:161} INFO - Started process (PID=9477) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:38:03.096-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:38:03.098-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:38:03.098-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:38:03.110-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:38:03.131-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:38:03.131-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:38:03.149-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:38:03.148-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:38:03.173-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.088 seconds
+[2024-05-30T23:38:33.439-0500] {processor.py:161} INFO - Started process (PID=9480) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:38:33.444-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:38:33.446-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:38:33.445-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:38:33.455-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:38:33.475-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:38:33.474-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:38:33.492-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:38:33.492-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:38:33.517-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.087 seconds
+[2024-05-30T23:39:03.896-0500] {processor.py:161} INFO - Started process (PID=9520) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:39:03.897-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:39:03.901-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:39:03.900-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:39:03.912-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:39:03.934-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:39:03.934-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:39:03.958-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:39:03.958-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:39:03.987-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.105 seconds
+[2024-05-30T23:39:34.334-0500] {processor.py:161} INFO - Started process (PID=9579) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:39:34.338-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:39:34.342-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:39:34.341-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:39:34.356-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:39:34.376-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:39:34.375-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:39:34.392-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:39:34.392-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:39:34.416-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.099 seconds
+[2024-05-30T23:40:04.620-0500] {processor.py:161} INFO - Started process (PID=9581) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:40:04.620-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:40:04.623-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:40:04.622-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:40:04.632-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:40:04.652-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:40:04.652-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:40:04.669-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:40:04.669-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:40:04.693-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.080 seconds
+[2024-05-30T23:40:35.013-0500] {processor.py:161} INFO - Started process (PID=9587) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:40:35.016-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:40:35.018-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:40:35.017-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:40:35.026-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:40:35.045-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:40:35.045-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:40:35.062-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:40:35.062-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:40:35.083-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.075 seconds
+[2024-05-30T23:41:05.466-0500] {processor.py:161} INFO - Started process (PID=9594) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:41:05.471-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:41:05.476-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:41:05.475-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:41:05.492-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:41:05.517-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:41:05.517-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:41:05.538-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:41:05.538-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:41:05.563-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.126 seconds
+[2024-05-30T23:41:36.509-0500] {processor.py:161} INFO - Started process (PID=9596) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:41:36.512-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:41:36.521-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:41:36.519-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:41:36.547-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:41:36.574-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:41:36.573-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:41:36.595-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:41:36.594-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:41:36.623-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.144 seconds
+[2024-05-30T23:42:07.060-0500] {processor.py:161} INFO - Started process (PID=9603) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:42:07.065-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:42:07.067-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:42:07.067-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:42:07.080-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:42:07.099-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:42:07.099-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:42:07.116-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:42:07.115-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:42:07.140-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.098 seconds
+[2024-05-30T23:42:37.436-0500] {processor.py:161} INFO - Started process (PID=9606) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:42:37.436-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:42:37.438-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:42:37.437-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:42:37.445-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:42:37.464-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:42:37.464-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:42:37.481-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:42:37.481-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:42:37.511-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.081 seconds
+[2024-05-30T23:43:07.845-0500] {processor.py:161} INFO - Started process (PID=9622) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:43:07.849-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:43:07.852-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:43:07.851-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:43:07.861-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:43:07.881-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:43:07.881-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:43:07.898-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:43:07.898-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:43:07.923-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.090 seconds
+[2024-05-30T23:43:38.250-0500] {processor.py:161} INFO - Started process (PID=9889) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:43:38.251-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:43:38.254-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:43:38.254-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:43:38.267-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:43:38.294-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:43:38.294-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:43:38.313-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:43:38.312-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:43:38.411-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.171 seconds
+[2024-05-30T23:44:08.749-0500] {processor.py:161} INFO - Started process (PID=9901) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:44:08.750-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:44:08.753-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:44:08.752-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:44:08.763-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:44:08.782-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:44:08.782-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:44:08.882-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:44:08.881-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:44:08.912-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.174 seconds
+[2024-05-30T23:44:39.132-0500] {processor.py:161} INFO - Started process (PID=9903) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:44:39.136-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:44:39.139-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:44:39.138-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:44:39.150-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:44:39.170-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:44:39.170-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:44:39.266-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:44:39.266-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:44:39.294-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.181 seconds
+[2024-05-30T23:45:04.508-0500] {processor.py:161} INFO - Started process (PID=9906) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:45:04.509-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:45:04.512-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:45:04.512-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:45:04.523-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:45:04.705-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:45:04.705-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:45:04.719-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:45:04.719-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:45:04.740-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.246 seconds
+[2024-05-30T23:45:07.984-0500] {processor.py:161} INFO - Started process (PID=9912) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:45:07.986-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:45:07.990-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:45:07.989-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:45:08.004-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:45:08.011-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:45:08.011-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:45:08.108-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:45:08.107-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:45:08.134-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.169 seconds
+[2024-05-30T23:45:38.844-0500] {processor.py:161} INFO - Started process (PID=9915) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:45:38.848-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:45:38.850-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:45:38.849-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:45:38.860-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:45:38.964-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:45:38.964-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:45:38.979-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:45:38.979-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:45:39.002-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.170 seconds
+[2024-05-30T23:46:09.510-0500] {processor.py:161} INFO - Started process (PID=9928) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:46:09.512-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:46:09.516-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:46:09.516-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:46:09.616-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:46:09.632-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:46:09.632-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:46:09.647-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:46:09.647-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:46:09.678-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.187 seconds
+[2024-05-30T23:46:40.083-0500] {processor.py:161} INFO - Started process (PID=9933) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:46:40.088-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:46:40.091-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:46:40.090-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:46:40.103-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:46:40.123-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:46:40.123-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:46:40.141-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:46:40.141-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:46:40.172-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.106 seconds
+[2024-05-30T23:46:59.733-0500] {processor.py:161} INFO - Started process (PID=9947) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:46:59.737-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:46:59.743-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:46:59.742-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:46:59.763-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:46:59.865-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:46:59.865-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:46:59.883-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:46:59.883-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:46:59.920-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.219 seconds
+[2024-05-30T23:47:30.939-0500] {processor.py:161} INFO - Started process (PID=9951) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:47:30.943-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:47:30.945-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:47:30.945-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:47:30.954-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:47:30.973-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:47:30.973-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:47:30.992-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:47:30.991-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:47:31.014-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.081 seconds
+[2024-05-30T23:48:01.434-0500] {processor.py:161} INFO - Started process (PID=9955) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:48:01.438-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:48:01.445-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:48:01.443-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:48:01.484-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:48:01.525-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:48:01.525-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:48:01.550-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:48:01.549-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:48:01.576-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.171 seconds
+[2024-05-30T23:48:32.176-0500] {processor.py:161} INFO - Started process (PID=9966) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:48:32.181-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:48:32.183-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:48:32.182-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:48:32.196-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:48:32.222-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:48:32.221-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:48:32.244-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:48:32.244-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to 2024-05-30 00:00:00+00:00, run_after=2024-05-30 00:00:00+00:00
+[2024-05-30T23:48:32.271-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.111 seconds
+[2024-05-30T23:49:04.686-0500] {processor.py:161} INFO - Started process (PID=9973) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:49:04.687-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:49:04.689-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:49:04.689-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:49:04.700-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:49:04.723-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:49:04.723-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:49:04.744-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:49:04.744-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:49:04.772-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.092 seconds
+[2024-05-30T23:49:35.048-0500] {processor.py:161} INFO - Started process (PID=9985) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:49:35.052-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:49:35.054-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:49:35.054-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:49:35.065-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:49:35.086-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:49:35.086-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:49:35.106-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:49:35.106-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:49:35.130-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.091 seconds
+[2024-05-30T23:50:05.749-0500] {processor.py:161} INFO - Started process (PID=9989) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:50:05.757-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:50:05.764-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:50:05.762-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:50:05.797-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:50:05.829-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:50:05.829-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:50:05.850-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:50:05.850-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:50:05.874-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.149 seconds
+[2024-05-30T23:50:36.293-0500] {processor.py:161} INFO - Started process (PID=9999) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:50:36.294-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:50:36.298-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:50:36.297-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:50:36.311-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:50:36.334-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:50:36.334-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:50:36.357-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:50:36.357-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:50:36.383-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.112 seconds
+[2024-05-30T23:51:07.084-0500] {processor.py:161} INFO - Started process (PID=10002) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:51:07.090-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:51:07.097-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:51:07.095-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:51:07.125-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:51:07.154-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:51:07.154-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:51:07.175-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:51:07.175-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:51:07.207-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.154 seconds
+[2024-05-30T23:51:37.447-0500] {processor.py:161} INFO - Started process (PID=10004) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:51:37.449-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:51:37.454-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:51:37.453-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:51:37.471-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:51:37.497-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:51:37.497-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:51:37.517-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:51:37.517-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:51:37.593-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.173 seconds
+[2024-05-30T23:52:07.794-0500] {processor.py:161} INFO - Started process (PID=10007) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:52:07.800-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:52:07.809-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:52:07.806-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:52:07.840-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:52:07.869-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:52:07.869-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:52:07.891-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:52:07.891-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:52:07.920-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.160 seconds
+[2024-05-30T23:52:38.152-0500] {processor.py:161} INFO - Started process (PID=10009) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:52:38.162-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:52:38.168-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:52:38.167-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:52:38.190-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:52:38.216-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:52:38.216-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:52:38.237-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:52:38.236-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:52:38.266-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.139 seconds
+[2024-05-30T23:53:08.541-0500] {processor.py:161} INFO - Started process (PID=10012) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:53:08.545-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:53:08.551-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:53:08.550-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:53:08.577-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:53:08.606-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:53:08.605-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:53:08.625-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:53:08.625-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:53:08.652-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.143 seconds
+[2024-05-30T23:53:38.983-0500] {processor.py:161} INFO - Started process (PID=10014) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:53:38.990-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:53:39.000-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:53:38.997-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:53:39.028-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:53:39.057-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:53:39.057-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:53:39.078-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:53:39.078-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:53:39.111-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.161 seconds
+[2024-05-30T23:54:09.338-0500] {processor.py:161} INFO - Started process (PID=10018) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:54:09.344-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:54:09.353-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:54:09.351-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:54:09.401-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:54:09.448-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:54:09.447-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:54:09.470-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:54:09.470-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:54:09.497-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.192 seconds
+[2024-05-30T23:54:39.758-0500] {processor.py:161} INFO - Started process (PID=10029) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:54:39.759-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:54:39.761-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:54:39.760-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:54:39.770-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:54:39.792-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:54:39.791-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:54:39.809-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:54:39.809-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:54:39.842-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.090 seconds
+[2024-05-30T23:55:09.992-0500] {processor.py:161} INFO - Started process (PID=10032) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:55:09.997-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:55:10.000-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:55:10.000-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:55:10.014-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:55:10.034-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:55:10.034-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:55:10.052-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:55:10.051-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:55:10.078-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.102 seconds
+[2024-05-30T23:55:40.302-0500] {processor.py:161} INFO - Started process (PID=10034) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:55:40.304-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:55:40.307-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:55:40.306-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:55:40.320-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:55:40.341-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:55:40.340-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:55:40.359-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:55:40.359-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:55:40.389-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.104 seconds
+[2024-05-30T23:56:10.607-0500] {processor.py:161} INFO - Started process (PID=10037) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:56:10.611-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:56:10.612-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:56:10.612-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:56:10.622-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:56:10.643-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:56:10.643-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:56:10.661-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:56:10.661-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:56:10.693-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.092 seconds
+[2024-05-30T23:56:40.835-0500] {processor.py:161} INFO - Started process (PID=10039) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:56:40.837-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:56:40.840-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:56:40.840-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:56:40.853-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:56:40.874-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:56:40.874-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:56:40.892-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:56:40.892-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:56:40.922-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.103 seconds
+[2024-05-30T23:57:11.166-0500] {processor.py:161} INFO - Started process (PID=10044) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:57:11.170-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:57:11.176-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:57:11.175-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:57:11.189-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:57:11.210-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:57:11.210-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:57:11.228-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:57:11.228-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:57:11.253-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.104 seconds
+[2024-05-30T23:57:41.482-0500] {processor.py:161} INFO - Started process (PID=10046) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:57:41.484-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:57:41.487-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:57:41.487-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:57:41.500-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:57:41.521-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:57:41.521-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:57:41.538-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:57:41.538-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:57:41.569-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.103 seconds
+[2024-05-30T23:58:11.811-0500] {processor.py:161} INFO - Started process (PID=10048) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:58:11.816-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:58:11.822-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:58:11.821-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:58:11.836-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:58:11.858-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:58:11.858-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:58:11.875-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:58:11.875-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:58:11.898-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.103 seconds
+[2024-05-30T23:58:42.060-0500] {processor.py:161} INFO - Started process (PID=10050) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:58:42.060-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:58:42.063-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:58:42.062-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:58:42.072-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:58:42.092-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:58:42.092-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:58:42.110-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:58:42.109-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:58:42.134-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.080 seconds
+[2024-05-30T23:59:12.238-0500] {processor.py:161} INFO - Started process (PID=10053) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:59:12.241-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-30T23:59:12.243-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:59:12.242-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:59:12.252-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-30T23:59:12.273-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:59:12.273-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-30T23:59:12.291-0500] {logging_mixin.py:188} INFO - [2024-05-30T23:59:12.290-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-30T23:59:12.321-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.090 seconds
+[2024-05-31T15:01:57.735-0500] {processor.py:161} INFO - Started process (PID=13103) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:01:57.737-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:01:57.740-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:01:57.739-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:01:57.755-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:01:57.779-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:01:57.778-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:01:57.795-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:01:57.794-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:01:57.835-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.112 seconds
+[2024-05-31T15:02:28.826-0500] {processor.py:161} INFO - Started process (PID=13127) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:02:28.830-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:02:28.835-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:02:28.834-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:02:28.850-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:02:28.871-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:02:28.871-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:02:28.888-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:02:28.887-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:02:28.917-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.108 seconds
+[2024-05-31T15:02:59.265-0500] {processor.py:161} INFO - Started process (PID=13150) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:02:59.267-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:02:59.269-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:02:59.269-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:02:59.282-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:02:59.301-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:02:59.301-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:02:59.317-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:02:59.317-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:02:59.353-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.097 seconds
+[2024-05-31T15:03:29.897-0500] {processor.py:161} INFO - Started process (PID=13158) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:03:29.900-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:03:29.902-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:03:29.902-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:03:29.912-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:03:29.934-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:03:29.934-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:03:29.954-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:03:29.953-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:03:29.979-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.089 seconds
+[2024-05-31T15:04:00.298-0500] {processor.py:161} INFO - Started process (PID=13176) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:04:00.301-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:04:00.303-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:04:00.303-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:04:00.312-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:04:00.333-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:04:00.333-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:04:00.351-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:04:00.351-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:04:00.375-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.086 seconds
+[2024-05-31T15:04:30.573-0500] {processor.py:161} INFO - Started process (PID=13181) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:04:30.574-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:04:30.575-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:04:30.575-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:04:30.583-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:04:30.602-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:04:30.602-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:04:30.619-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:04:30.619-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:04:30.642-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.075 seconds
+[2024-05-31T15:05:00.961-0500] {processor.py:161} INFO - Started process (PID=13186) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:05:00.964-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:05:00.966-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:05:00.966-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:05:00.974-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:05:00.993-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:05:00.993-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:05:01.010-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:05:01.009-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:05:01.030-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.074 seconds
+[2024-05-31T15:05:31.259-0500] {processor.py:161} INFO - Started process (PID=13194) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:05:31.264-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:05:31.267-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:05:31.267-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:05:31.282-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:05:31.303-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:05:31.303-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:05:31.319-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:05:31.319-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:05:31.343-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.100 seconds
+[2024-05-31T15:06:01.574-0500] {processor.py:161} INFO - Started process (PID=13197) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:06:01.575-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:06:01.577-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:06:01.576-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:06:01.587-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:06:01.608-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:06:01.608-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:06:01.624-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:06:01.624-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:06:01.656-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.087 seconds
+[2024-05-31T15:06:31.866-0500] {processor.py:161} INFO - Started process (PID=13202) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:06:31.869-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:06:31.871-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:06:31.871-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:06:31.879-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:06:31.898-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:06:31.898-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:06:31.914-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:06:31.914-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:06:31.943-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.082 seconds
+[2024-05-31T15:07:02.179-0500] {processor.py:161} INFO - Started process (PID=13209) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:07:02.183-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:07:02.184-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:07:02.184-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:07:02.193-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:07:02.212-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:07:02.212-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:07:02.228-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:07:02.228-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:07:02.250-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.076 seconds
+[2024-05-31T15:07:32.511-0500] {processor.py:161} INFO - Started process (PID=13214) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:07:32.513-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:07:32.515-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:07:32.515-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:07:32.524-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:07:32.544-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:07:32.544-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:07:32.560-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:07:32.560-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:07:32.585-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.080 seconds
+[2024-05-31T15:08:02.843-0500] {processor.py:161} INFO - Started process (PID=13219) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:08:02.843-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:08:02.845-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:08:02.844-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:08:02.853-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:08:02.872-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:08:02.872-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:08:02.889-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:08:02.889-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:08:02.912-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.075 seconds
+[2024-05-31T15:08:33.145-0500] {processor.py:161} INFO - Started process (PID=13223) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:08:33.149-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:08:33.151-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:08:33.150-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:08:33.159-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:08:33.179-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:08:33.179-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:08:33.196-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:08:33.196-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:08:33.220-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.080 seconds
+[2024-05-31T15:09:03.488-0500] {processor.py:161} INFO - Started process (PID=13230) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:09:03.489-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:09:03.491-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:09:03.490-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:09:03.499-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:09:03.518-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:09:03.518-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:09:03.534-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:09:03.534-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:09:03.557-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.074 seconds
+[2024-05-31T15:09:33.972-0500] {processor.py:161} INFO - Started process (PID=13238) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:09:33.976-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:09:33.981-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:09:33.980-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:09:34.001-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:09:34.025-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:09:34.025-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:09:34.042-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:09:34.042-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:09:34.066-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.100 seconds
+[2024-05-31T15:10:05.216-0500] {processor.py:161} INFO - Started process (PID=13241) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:10:05.218-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:10:05.221-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:10:05.220-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:10:05.234-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:10:05.253-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:10:05.253-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:10:05.269-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:10:05.269-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:10:05.292-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.091 seconds
+[2024-05-31T15:10:35.669-0500] {processor.py:161} INFO - Started process (PID=13245) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:10:35.673-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:10:35.675-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:10:35.674-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:10:35.683-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:10:35.702-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:10:35.701-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:10:35.718-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:10:35.717-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:10:35.747-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.083 seconds
+[2024-05-31T15:11:05.826-0500] {processor.py:161} INFO - Started process (PID=13250) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:11:05.830-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:11:05.834-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:11:05.833-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:11:05.855-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:11:05.879-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:11:05.879-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:11:05.895-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:11:05.895-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:11:05.926-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.105 seconds
+[2024-05-31T15:11:36.313-0500] {processor.py:161} INFO - Started process (PID=13254) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:11:36.318-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:11:36.322-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:11:36.321-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:11:36.338-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:11:36.359-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:11:36.359-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:11:36.375-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:11:36.375-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:11:36.492-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.194 seconds
+[2024-05-31T15:12:06.624-0500] {processor.py:161} INFO - Started process (PID=13261) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:12:06.625-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:12:06.627-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:12:06.627-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:12:06.635-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:12:06.654-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:12:06.653-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:12:06.746-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:12:06.745-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:12:06.775-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.156 seconds
+[2024-05-31T15:12:36.964-0500] {processor.py:161} INFO - Started process (PID=13266) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:12:36.967-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:12:36.969-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:12:36.968-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:12:36.978-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:12:36.997-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:12:36.997-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:12:37.090-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:12:37.090-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:12:37.113-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.155 seconds
+[2024-05-31T15:13:07.326-0500] {processor.py:161} INFO - Started process (PID=13270) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:13:07.327-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:13:07.328-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:13:07.328-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:13:07.337-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:13:07.356-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:13:07.356-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:13:07.446-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:13:07.446-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:13:07.468-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.148 seconds
+[2024-05-31T15:13:37.674-0500] {processor.py:161} INFO - Started process (PID=13273) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:13:37.678-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:13:37.679-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:13:37.679-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:13:37.688-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:13:37.784-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:13:37.784-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:13:37.799-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:13:37.798-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:13:37.820-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.151 seconds
+[2024-05-31T15:14:08.439-0500] {processor.py:161} INFO - Started process (PID=13288) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:14:08.445-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:14:08.448-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:14:08.447-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:14:08.550-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:14:08.566-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:14:08.566-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:14:08.581-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:14:08.581-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:14:08.636-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.210 seconds
+[2024-05-31T15:14:39.063-0500] {processor.py:161} INFO - Started process (PID=13294) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:14:39.066-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:14:39.067-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:14:39.067-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:14:39.073-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:14:39.092-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:14:39.092-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:14:39.109-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:14:39.108-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:14:39.131-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.233 seconds
+[2024-05-31T15:15:09.409-0500] {processor.py:161} INFO - Started process (PID=13297) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:15:09.412-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:15:09.418-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:15:09.416-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:15:09.437-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:15:09.467-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:15:09.467-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:15:09.492-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:15:09.492-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:15:09.519-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.138 seconds
+[2024-05-31T15:15:39.994-0500] {processor.py:161} INFO - Started process (PID=13301) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:15:39.998-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:15:40.002-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:15:40.002-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:15:40.016-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:15:40.040-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:15:40.040-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:15:40.061-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:15:40.061-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:15:40.088-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.113 seconds
+[2024-05-31T15:16:10.534-0500] {processor.py:161} INFO - Started process (PID=13305) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:16:10.537-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:16:10.542-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:16:10.541-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:16:10.562-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:16:10.589-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:16:10.588-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:16:10.609-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:16:10.608-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:16:10.647-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.136 seconds
+[2024-05-31T15:16:41.121-0500] {processor.py:161} INFO - Started process (PID=13318) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:16:41.127-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:16:41.136-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:16:41.135-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:16:41.153-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:16:41.179-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:16:41.178-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:16:41.198-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:16:41.198-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:16:41.223-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.128 seconds
+[2024-05-31T15:17:11.705-0500] {processor.py:161} INFO - Started process (PID=13325) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:17:11.708-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:17:11.712-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:17:11.712-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:17:11.730-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:17:11.755-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:17:11.754-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:17:11.774-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:17:11.774-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:17:11.799-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.124 seconds
+[2024-05-31T15:17:42.295-0500] {processor.py:161} INFO - Started process (PID=13329) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:17:42.299-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:17:42.302-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:17:42.301-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:17:42.313-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:17:42.333-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:17:42.333-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:17:42.354-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:17:42.353-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:17:42.381-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.098 seconds
+[2024-05-31T15:18:12.883-0500] {processor.py:161} INFO - Started process (PID=13334) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:18:12.885-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:18:12.890-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:18:12.889-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:18:12.904-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:18:12.927-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:18:12.927-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:18:12.946-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:18:12.946-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:18:12.972-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.109 seconds
+[2024-05-31T15:18:43.535-0500] {processor.py:161} INFO - Started process (PID=13338) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:18:43.539-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:18:43.541-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:18:43.541-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:18:43.555-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:18:43.580-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:18:43.579-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:18:43.598-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:18:43.598-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:18:43.624-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.111 seconds
+[2024-05-31T15:19:13.977-0500] {processor.py:161} INFO - Started process (PID=13350) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:19:13.981-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:19:13.986-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:19:13.985-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:19:14.004-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:19:14.030-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:19:14.030-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:19:14.049-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:19:14.048-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:19:14.079-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.136 seconds
+[2024-05-31T15:19:44.522-0500] {processor.py:161} INFO - Started process (PID=13354) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:19:44.526-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:19:44.531-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:19:44.530-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:19:44.550-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:19:44.577-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:19:44.577-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:19:44.596-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:19:44.596-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:19:44.623-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.119 seconds
+[2024-05-31T15:20:14.876-0500] {processor.py:161} INFO - Started process (PID=13360) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:20:14.879-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:20:14.881-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:20:14.881-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:20:14.895-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:20:14.918-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:20:14.918-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:20:14.940-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:20:14.939-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:20:14.966-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.107 seconds
+[2024-05-31T15:20:45.218-0500] {processor.py:161} INFO - Started process (PID=13368) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:20:45.221-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:20:45.222-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:20:45.222-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:20:45.230-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:20:45.250-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:20:45.250-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:20:45.266-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:20:45.266-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:20:45.288-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.076 seconds
+[2024-05-31T15:21:15.462-0500] {processor.py:161} INFO - Started process (PID=13395) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:21:15.465-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:21:15.471-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:21:15.470-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:21:15.498-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:21:15.530-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:21:15.530-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:21:15.556-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:21:15.556-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:21:15.583-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.145 seconds
+[2024-05-31T15:21:45.746-0500] {processor.py:161} INFO - Started process (PID=13426) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:21:45.749-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:21:45.751-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:21:45.751-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:21:45.762-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:21:45.783-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:21:45.783-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:21:45.801-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:21:45.801-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:21:45.826-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.087 seconds
+[2024-05-31T15:22:17.122-0500] {processor.py:161} INFO - Started process (PID=13458) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:22:17.125-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:22:17.127-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:22:17.127-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:22:17.137-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:22:17.157-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:22:17.157-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:22:17.173-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:22:17.173-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:22:17.203-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.089 seconds
+[2024-05-31T15:22:47.342-0500] {processor.py:161} INFO - Started process (PID=13487) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:22:47.347-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:22:47.351-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:22:47.350-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:22:47.366-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:22:47.388-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:22:47.388-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:22:47.406-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:22:47.405-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:22:47.443-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.113 seconds
+[2024-05-31T15:23:17.616-0500] {processor.py:161} INFO - Started process (PID=13508) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:23:17.618-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:23:17.620-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:23:17.620-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:23:17.629-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:23:17.649-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:23:17.649-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:23:17.667-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:23:17.666-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:23:17.699-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.090 seconds
+[2024-05-31T15:23:47.837-0500] {processor.py:161} INFO - Started process (PID=13526) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:23:47.839-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:23:47.844-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:23:47.843-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:23:47.858-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:23:47.880-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:23:47.879-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:23:47.897-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:23:47.897-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:23:47.920-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.101 seconds
+[2024-05-31T15:24:18.154-0500] {processor.py:161} INFO - Started process (PID=13549) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:24:18.156-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:24:18.159-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:24:18.158-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:24:18.168-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:24:18.187-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:24:18.187-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:24:18.205-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:24:18.204-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:24:18.229-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.091 seconds
+[2024-05-31T15:24:48.437-0500] {processor.py:161} INFO - Started process (PID=13573) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:24:48.439-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:24:48.441-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:24:48.441-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:24:48.450-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:24:48.471-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:24:48.471-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:24:48.488-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:24:48.488-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:24:48.518-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.087 seconds
+[2024-05-31T15:25:18.659-0500] {processor.py:161} INFO - Started process (PID=13603) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:25:18.660-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:25:18.662-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:25:18.661-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:25:18.673-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:25:18.695-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:25:18.695-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:25:18.713-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:25:18.713-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:25:18.736-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.085 seconds
+[2024-05-31T15:25:51.196-0500] {processor.py:161} INFO - Started process (PID=13638) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:25:51.199-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:25:51.203-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:25:51.202-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:25:51.219-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:25:51.240-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:25:51.239-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:25:51.256-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:25:51.256-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:25:51.281-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.098 seconds
+[2024-05-31T15:26:22.019-0500] {processor.py:161} INFO - Started process (PID=13649) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:26:22.023-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:26:22.024-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:26:22.024-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:26:22.034-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:26:22.055-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:26:22.055-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:26:22.073-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:26:22.073-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:26:22.097-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.087 seconds
+[2024-05-31T15:26:52.601-0500] {processor.py:161} INFO - Started process (PID=13682) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:26:52.603-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:26:52.608-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:26:52.607-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:26:52.624-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:26:52.645-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:26:52.645-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:26:52.662-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:26:52.662-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:26:52.692-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.112 seconds
+[2024-05-31T15:27:22.881-0500] {processor.py:161} INFO - Started process (PID=13710) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:27:22.885-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:27:22.889-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:27:22.888-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:27:22.905-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:27:22.925-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:27:22.925-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:27:22.943-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:27:22.942-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:27:22.966-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.093 seconds
+[2024-05-31T15:27:53.095-0500] {processor.py:161} INFO - Started process (PID=13725) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:27:53.099-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:27:53.101-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:27:53.100-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:27:53.112-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:27:53.138-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:27:53.137-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:27:53.158-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:27:53.158-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:27:53.194-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.110 seconds
+[2024-05-31T15:28:24.385-0500] {processor.py:161} INFO - Started process (PID=13751) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:28:24.388-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:28:24.391-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:28:24.391-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:28:24.404-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:28:24.426-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:28:24.425-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:28:24.445-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:28:24.445-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:28:24.470-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.096 seconds
+[2024-05-31T15:28:54.914-0500] {processor.py:161} INFO - Started process (PID=13755) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:28:54.918-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:28:54.921-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:28:54.920-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:28:54.933-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:28:54.954-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:28:54.953-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:28:54.973-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:28:54.972-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:28:54.995-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.099 seconds
+[2024-05-31T15:29:25.475-0500] {processor.py:161} INFO - Started process (PID=13759) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:29:25.479-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:29:25.479-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:29:25.479-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:29:25.488-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:29:25.508-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:29:25.508-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:29:25.524-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:29:25.524-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:29:25.544-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.075 seconds
+[2024-05-31T15:29:55.877-0500] {processor.py:161} INFO - Started process (PID=13766) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:29:55.881-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:29:55.884-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:29:55.883-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:29:55.908-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:29:55.932-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:29:55.932-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:29:55.949-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:29:55.948-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:29:55.973-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.101 seconds
+[2024-05-31T15:30:26.495-0500] {processor.py:161} INFO - Started process (PID=13773) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:30:26.499-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:30:26.501-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:30:26.500-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:30:26.518-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:30:26.538-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:30:26.538-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:30:26.555-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:30:26.554-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:30:26.579-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.099 seconds
+[2024-05-31T15:30:57.087-0500] {processor.py:161} INFO - Started process (PID=13783) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:30:57.089-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:30:57.091-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:30:57.090-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:30:57.106-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:30:57.126-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:30:57.126-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:30:57.142-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:30:57.142-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:30:57.167-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.095 seconds
+[2024-05-31T15:31:27.599-0500] {processor.py:161} INFO - Started process (PID=13788) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:31:27.603-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:31:27.604-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:31:27.603-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:31:27.613-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:31:27.632-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:31:27.632-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:31:27.649-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:31:27.649-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:31:27.670-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.076 seconds
+[2024-05-31T15:31:57.804-0500] {processor.py:161} INFO - Started process (PID=13795) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:31:57.805-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:31:57.806-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:31:57.805-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:31:57.815-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:31:57.834-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:31:57.834-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:31:57.852-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:31:57.852-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:31:57.874-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.076 seconds
+[2024-05-31T15:32:28.573-0500] {processor.py:161} INFO - Started process (PID=13804) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:32:28.578-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:32:28.582-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:32:28.580-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:32:28.607-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:32:28.633-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:32:28.633-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:32:28.651-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:32:28.651-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:32:28.676-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.123 seconds
+[2024-05-31T15:33:00.355-0500] {processor.py:161} INFO - Started process (PID=13815) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:33:00.361-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:33:00.367-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:33:00.365-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:33:00.416-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:33:00.464-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:33:00.464-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:33:00.485-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:33:00.485-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:33:00.535-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.211 seconds
+[2024-05-31T15:33:30.926-0500] {processor.py:161} INFO - Started process (PID=13821) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:33:30.928-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:33:30.929-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:33:30.929-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:33:30.946-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:33:30.971-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:33:30.970-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:33:30.993-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:33:30.993-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:33:31.020-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.112 seconds
+[2024-05-31T15:34:02.416-0500] {processor.py:161} INFO - Started process (PID=13833) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:34:02.420-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:34:02.424-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:34:02.423-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:34:02.450-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:34:02.487-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:34:02.487-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:34:02.513-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:34:02.513-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:34:02.539-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.136 seconds
+[2024-05-31T15:34:32.683-0500] {processor.py:161} INFO - Started process (PID=13841) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:34:32.686-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:34:32.687-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:34:32.686-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:34:32.695-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:34:32.715-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:34:32.715-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:34:32.731-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:34:32.731-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:34:32.754-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.077 seconds
+[2024-05-31T15:35:02.948-0500] {processor.py:161} INFO - Started process (PID=13861) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:35:02.949-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:35:02.951-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:35:02.950-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:35:02.969-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:35:03.023-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:35:03.022-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:35:03.065-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:35:03.065-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:35:03.145-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.222 seconds
+[2024-05-31T15:35:34.106-0500] {processor.py:161} INFO - Started process (PID=13872) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:35:34.111-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:35:34.113-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:35:34.112-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:35:34.131-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:35:34.157-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:35:34.157-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:35:34.178-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:35:34.177-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:35:34.204-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.118 seconds
+[2024-05-31T15:36:04.405-0500] {processor.py:161} INFO - Started process (PID=13879) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:36:04.407-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:36:04.408-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:36:04.407-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:36:04.421-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:36:04.441-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:36:04.441-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:36:04.458-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:36:04.458-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:36:04.498-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.109 seconds
+[2024-05-31T15:36:34.741-0500] {processor.py:161} INFO - Started process (PID=13884) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:36:34.744-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:36:34.747-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:36:34.746-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:36:34.770-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:36:34.795-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:36:34.794-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:36:34.811-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:36:34.811-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:36:34.834-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.099 seconds
+[2024-05-31T15:37:05.037-0500] {processor.py:161} INFO - Started process (PID=13891) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:37:05.040-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:37:05.041-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:37:05.041-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:37:05.054-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:37:05.077-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:37:05.077-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:37:05.093-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:37:05.093-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:37:05.117-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.087 seconds
+[2024-05-31T15:37:35.517-0500] {processor.py:161} INFO - Started process (PID=13898) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:37:35.518-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:37:35.519-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:37:35.519-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:37:35.534-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:37:35.559-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:37:35.559-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:37:35.579-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:37:35.579-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:37:35.607-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.107 seconds
+[2024-05-31T15:38:06.116-0500] {processor.py:161} INFO - Started process (PID=13906) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:38:06.121-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:38:06.126-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:38:06.124-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:38:06.165-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:38:06.207-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:38:06.206-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:38:06.231-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:38:06.230-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:38:06.257-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.170 seconds
+[2024-05-31T15:38:36.794-0500] {processor.py:161} INFO - Started process (PID=13912) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:38:36.798-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:38:36.800-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:38:36.799-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:38:36.814-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:38:36.839-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:38:36.838-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:38:36.858-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:38:36.858-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:38:36.887-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.115 seconds
+[2024-05-31T15:39:07.399-0500] {processor.py:161} INFO - Started process (PID=13916) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:39:07.403-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:39:07.405-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:39:07.404-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:39:07.422-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:39:07.451-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:39:07.451-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:39:07.471-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:39:07.471-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:39:07.498-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.110 seconds
+[2024-05-31T15:39:38.055-0500] {processor.py:161} INFO - Started process (PID=13921) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:39:38.060-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:39:38.061-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:39:38.061-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:39:38.077-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:39:38.102-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:39:38.102-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:39:38.124-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:39:38.124-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:39:38.149-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.117 seconds
+[2024-05-31T15:40:08.451-0500] {processor.py:161} INFO - Started process (PID=13932) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:40:08.452-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:40:08.452-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:40:08.452-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:40:08.461-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:40:08.480-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:40:08.480-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:40:08.498-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:40:08.497-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:40:08.522-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.078 seconds
+[2024-05-31T15:40:38.772-0500] {processor.py:161} INFO - Started process (PID=13937) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:40:38.775-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:40:38.775-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:40:38.775-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:40:38.785-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:40:38.806-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:40:38.806-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:40:38.822-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:40:38.822-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:40:38.846-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.080 seconds
+[2024-05-31T15:41:09.079-0500] {processor.py:161} INFO - Started process (PID=13943) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:41:09.080-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:41:09.081-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:41:09.081-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:41:09.092-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:41:09.116-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:41:09.116-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:41:09.133-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:41:09.133-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:41:09.162-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.089 seconds
+[2024-05-31T15:41:39.451-0500] {processor.py:161} INFO - Started process (PID=13948) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:41:39.455-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:41:39.458-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:41:39.457-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:41:39.474-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:41:39.494-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:41:39.494-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:41:39.511-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:41:39.511-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:41:39.534-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.099 seconds
+[2024-05-31T15:42:09.807-0500] {processor.py:161} INFO - Started process (PID=13954) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:42:09.808-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:42:09.809-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:42:09.808-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:42:09.820-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:42:09.841-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:42:09.841-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:42:09.857-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:42:09.857-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:42:09.878-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.078 seconds
+[2024-05-31T15:42:40.114-0500] {processor.py:161} INFO - Started process (PID=13961) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:42:40.118-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:42:40.119-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:42:40.119-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:42:40.130-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:42:40.151-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:42:40.151-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:42:40.167-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:42:40.167-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:42:40.195-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.087 seconds
+[2024-05-31T15:43:10.467-0500] {processor.py:161} INFO - Started process (PID=13967) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:43:10.471-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:43:10.473-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:43:10.472-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:43:10.490-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:43:10.510-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:43:10.510-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:43:10.527-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:43:10.527-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:43:10.552-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.100 seconds
+[2024-05-31T15:43:40.780-0500] {processor.py:161} INFO - Started process (PID=13971) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:43:40.783-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:43:40.785-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:43:40.784-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:43:40.794-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:43:40.813-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:43:40.813-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:43:40.830-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:43:40.830-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:43:40.851-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.076 seconds
+[2024-05-31T15:44:11.091-0500] {processor.py:161} INFO - Started process (PID=13978) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:44:11.094-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:44:11.095-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:44:11.094-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:44:11.104-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:44:11.126-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:44:11.125-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:44:11.142-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:44:11.142-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:44:11.166-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.080 seconds
+[2024-05-31T15:44:41.506-0500] {processor.py:161} INFO - Started process (PID=14088) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:44:41.507-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:44:41.508-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:44:41.508-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:44:41.520-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:44:41.543-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:44:41.543-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:44:41.562-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:44:41.562-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:44:41.617-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.127 seconds
+[2024-05-31T15:45:11.808-0500] {processor.py:161} INFO - Started process (PID=14096) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:45:11.812-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:45:11.814-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:45:11.813-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:45:11.838-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:45:11.861-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:45:11.861-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:45:11.877-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:45:11.877-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:45:11.906-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.104 seconds
+[2024-05-31T15:45:42.197-0500] {processor.py:161} INFO - Started process (PID=14100) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:45:42.199-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:45:42.201-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:45:42.200-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:45:42.214-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:45:42.236-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:45:42.236-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:45:42.255-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:45:42.254-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:45:42.278-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.100 seconds
+[2024-05-31T15:46:12.574-0500] {processor.py:161} INFO - Started process (PID=14105) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:46:12.578-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:46:12.579-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:46:12.579-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:46:12.590-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:46:12.610-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:46:12.610-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:46:12.626-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:46:12.626-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:46:12.650-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.091 seconds
+[2024-05-31T15:46:42.879-0500] {processor.py:161} INFO - Started process (PID=14110) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:46:42.883-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:46:42.884-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:46:42.884-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:46:42.893-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:46:42.913-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:46:42.912-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:46:42.931-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:46:42.931-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:46:42.959-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.092 seconds
+[2024-05-31T15:47:13.260-0500] {processor.py:161} INFO - Started process (PID=14116) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:47:13.261-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:47:13.262-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:47:13.261-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:47:13.271-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:47:13.291-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:47:13.291-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:47:13.308-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:47:13.308-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:47:13.334-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.081 seconds
+[2024-05-31T15:47:43.547-0500] {processor.py:161} INFO - Started process (PID=14124) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:47:43.550-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:47:43.552-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:47:43.551-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:47:43.562-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:47:43.583-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:47:43.583-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:47:43.602-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:47:43.602-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:47:43.627-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.090 seconds
+[2024-05-31T15:48:13.833-0500] {processor.py:161} INFO - Started process (PID=14220) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:48:13.834-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:48:13.835-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:48:13.835-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:48:13.845-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:48:13.865-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:48:13.865-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:48:13.885-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:48:13.885-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:48:13.911-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.089 seconds
+[2024-05-31T15:48:44.083-0500] {processor.py:161} INFO - Started process (PID=14224) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:48:44.086-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:48:44.087-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:48:44.086-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:48:44.096-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:48:44.116-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:48:44.116-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:48:44.133-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:48:44.132-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:48:44.159-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.082 seconds
+[2024-05-31T15:49:14.216-0500] {processor.py:161} INFO - Started process (PID=14252) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:49:14.216-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:49:14.217-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:49:14.217-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:49:14.227-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:49:14.252-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:49:14.252-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:49:14.272-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:49:14.272-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:49:14.306-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.101 seconds
+[2024-05-31T15:49:44.563-0500] {processor.py:161} INFO - Started process (PID=14314) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:49:44.564-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:49:44.565-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:49:44.564-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:49:44.579-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:49:44.610-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:49:44.610-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:49:44.633-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:49:44.632-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:49:44.679-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.125 seconds
+[2024-05-31T15:50:14.960-0500] {processor.py:161} INFO - Started process (PID=14321) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:50:14.962-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:50:14.965-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:50:14.964-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:50:14.979-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:50:14.999-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:50:14.999-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:50:15.016-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:50:15.015-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:50:15.046-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.102 seconds
+[2024-05-31T15:50:45.310-0500] {processor.py:161} INFO - Started process (PID=14327) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:50:45.313-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:50:45.314-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:50:45.313-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:50:45.325-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:50:45.351-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:50:45.350-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:50:45.372-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:50:45.372-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:50:45.398-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.099 seconds
+[2024-05-31T15:51:15.689-0500] {processor.py:161} INFO - Started process (PID=14334) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:51:15.692-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:51:15.695-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:51:15.693-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:51:15.720-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:51:15.744-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:51:15.744-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:51:15.762-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:51:15.761-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:51:15.785-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.102 seconds
+[2024-05-31T15:51:46.070-0500] {processor.py:161} INFO - Started process (PID=14360) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:51:46.073-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:51:46.076-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:51:46.075-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:51:46.097-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:51:46.128-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:51:46.128-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:51:46.151-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:51:46.151-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:51:46.174-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.110 seconds
+[2024-05-31T15:52:16.451-0500] {processor.py:161} INFO - Started process (PID=14368) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:52:16.455-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:52:16.457-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:52:16.456-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:52:16.480-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:52:16.505-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:52:16.505-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:52:16.521-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:52:16.521-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:52:16.544-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.098 seconds
+[2024-05-31T15:52:46.838-0500] {processor.py:161} INFO - Started process (PID=14395) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:52:46.843-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:52:46.844-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:52:46.844-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:52:46.857-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:52:46.878-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:52:46.878-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:52:46.895-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:52:46.895-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:52:46.919-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.098 seconds
+[2024-05-31T15:53:17.206-0500] {processor.py:161} INFO - Started process (PID=14403) to work on /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:53:17.210-0500] {processor.py:830} INFO - Processing file /home/diallo/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2024-05-31T15:53:17.212-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:53:17.211-0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:53:17.222-0500] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /home/diallo/airflow/dags/execute_multiple_tasks.py
+[2024-05-31T15:53:17.243-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:53:17.242-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-31T15:53:17.259-0500] {logging_mixin.py:188} INFO - [2024-05-31T15:53:17.259-0500] {dag.py:3954} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-05-31T15:53:17.283-0500] {processor.py:183} INFO - Processing /home/diallo/airflow/dags/execute_multiple_tasks.py took 0.094 seconds

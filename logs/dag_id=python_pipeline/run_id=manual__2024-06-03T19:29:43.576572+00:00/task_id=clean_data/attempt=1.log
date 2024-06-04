@@ -1,0 +1,33 @@
+[2024-06-03T14:29:49.793-0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-03T14:29:49.886-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: python_pipeline.clean_data manual__2024-06-03T19:29:43.576572+00:00 [queued]>
+[2024-06-03T14:29:49.892-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: python_pipeline.clean_data manual__2024-06-03T19:29:43.576572+00:00 [queued]>
+[2024-06-03T14:29:49.892-0500] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-03T14:29:49.914-0500] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): clean_data> on 2024-06-03 19:29:43.576572+00:00
+[2024-06-03T14:29:49.922-0500] {standard_task_runner.py:63} INFO - Started process 13010 to run task
+[2024-06-03T14:29:49.926-0500] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'python_pipeline', 'clean_data', 'manual__2024-06-03T19:29:43.576572+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/data_cleaning.py', '--cfg-path', '/tmp/tmpt95fkola']
+[2024-06-03T14:29:49.928-0500] {standard_task_runner.py:91} INFO - Job 46: Subtask clean_data
+[2024-06-03T14:29:49.967-0500] {task_command.py:426} INFO - Running <TaskInstance: python_pipeline.clean_data manual__2024-06-03T19:29:43.576572+00:00 [running]> on host diallo
+[2024-06-03T14:29:50.040-0500] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Diallo' AIRFLOW_CTX_DAG_ID='python_pipeline' AIRFLOW_CTX_TASK_ID='clean_data' AIRFLOW_CTX_EXECUTION_DATE='2024-06-03T19:29:43.576572+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-03T19:29:43.576572+00:00'
+[2024-06-03T14:29:50.041-0500] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-03T14:29:50.068-0500] {logging_mixin.py:188} WARNING - /home/diallo/airflow/dags/data_cleaning.py:36 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-06-03T14:29:50.082-0500] {logging_mixin.py:188} INFO - Dataset shape ==> (1349, 7)
+[2024-06-03T14:29:50.097-0500] {logging_mixin.py:188} INFO -        age  ...     charges
+0     19.0  ...  16884.9240
+1     18.0  ...   1725.5523
+2     28.0  ...   4449.4620
+3      NaN  ...         NaN
+4     25.0  ...   3366.6697
+...    ...  ...         ...
+1344  18.0  ...   2205.9808
+1345  18.0  ...   1629.8335
+1346  21.0  ...   2007.9450
+1347   NaN  ...         NaN
+1348  42.0  ...   5976.8311
+
+[1349 rows x 7 columns]
+[2024-06-03T14:29:50.098-0500] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-03T14:29:50.098-0500] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-03T14:29:50.102-0500] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=python_pipeline, task_id=clean_data, run_id=manual__2024-06-03T19:29:43.576572+00:00, execution_date=20240603T192943, start_date=20240603T192949, end_date=20240603T192950
+[2024-06-03T14:29:50.138-0500] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-03T14:29:50.153-0500] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-03T14:29:50.153-0500] {local_task_job_runner.py:222} INFO - ::endgroup::
